@@ -1,0 +1,24 @@
+[2.535s] Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description -- -j4 -l4
+[3.162s] Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description -- -j4 -l4
+[3.245s] Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description
+[3.311s] -- Install configuration: ""
+[3.311s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/urdf
+[3.315s] -- Installing: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/urdf/robot.urdf.xacro
+[3.316s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/launch
+[3.327s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/launch/robot_launch.py
+[3.328s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[3.329s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[3.329s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[3.332s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[3.333s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/environment/path.sh
+[3.333s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv
+[3.334s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/local_setup.bash
+[3.334s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/local_setup.sh
+[3.339s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh
+[3.340s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv
+[3.341s] -- Installing: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/package.dsv
+[3.345s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[3.346s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[3.347s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[3.347s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/package.xml
+[3.356s] Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description

@@ -1,0 +1,21 @@
+[6.161s] Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/keyboard_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build install --record /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log --single-version-externally-managed install_data
+[7.704s] running egg_info
+[7.830s] writing ../../build/keyboard_control/keyboard_control.egg-info/PKG-INFO
+[7.832s] writing dependency_links to ../../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt
+[7.834s] writing entry points to ../../build/keyboard_control/keyboard_control.egg-info/entry_points.txt
+[7.835s] writing requirements to ../../build/keyboard_control/keyboard_control.egg-info/requires.txt
+[7.836s] writing top-level names to ../../build/keyboard_control/keyboard_control.egg-info/top_level.txt
+[8.082s] reading manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[8.086s] writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[8.087s] running build
+[8.089s] running build_py
+[8.090s] running install
+[8.115s] running install_lib
+[8.234s] running install_data
+[8.236s] running install_egg_info
+[8.359s] removing '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control-0.0.0-py3.12.egg-info' (and everything under it)
+[8.361s] Copying ../../build/keyboard_control/keyboard_control.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control-0.0.0-py3.12.egg-info
+[8.370s] running install_scripts
+[9.234s] Installing one_motor_test script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/keyboard_control
+[9.238s] writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log'
+[9.401s] Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/keyboard_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build install --record /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log --single-version-externally-managed install_data

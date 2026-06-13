@@ -1,0 +1,364 @@
+[0.466s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.466s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9966c7d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff99828f80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff99828f80>>, mixin_verb=('build',))
+[0.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.637s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_controller) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_controller) by extension 'ignore_ament_install'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_controller) by extensions ['colcon_pkg']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_controller) by extension 'colcon_pkg'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_controller) by extensions ['colcon_meta']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_controller) by extension 'colcon_meta'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_controller) by extensions ['ros']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_controller) by extension 'ros'
+[0.788s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ddsm115_controller' with type 'ros.ament_python' and name 'ddsm115_controller'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'colcon_pkg'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['colcon_meta']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'colcon_meta'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['ros']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ros'
+[0.792s] DEBUG:colcon.colcon_core.package_identification:Package 'src/keyboard_control' with type 'ros.ament_python' and name 'keyboard_control'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.796s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_merger) by extensions ['ignore', 'ignore_ament_install']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_merger) by extension 'ignore'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_merger) by extension 'ignore_ament_install'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_merger) by extensions ['colcon_pkg']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_merger) by extension 'colcon_pkg'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_merger) by extensions ['colcon_meta']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_merger) by extension 'colcon_meta'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_merger) by extensions ['ros']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_merger) by extension 'ros'
+[0.802s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_laser_scan_merger' with type 'ros.ament_cmake' and name 'ros2_laser_scan_merger'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.806s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.888s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install
+[0.899s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 295 installed packages in /opt/ros/jazzy
+[0.906s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.112s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_controller' build argument 'cmake_args' from command line to 'None'
+[1.113s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_controller' build argument 'cmake_target' from command line to 'None'
+[1.113s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.113s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.113s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.113s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.113s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.113s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.113s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.114s] DEBUG:colcon.colcon_core.verb:Building package 'ddsm115_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller', 'merge_install': False, 'path': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ddsm115_controller', 'symlink_install': False, 'test_result_base': None}
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_args' from command line to 'None'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_target' from command line to 'None'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.116s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.116s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.116s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.116s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control', 'merge_install': False, 'path': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/keyboard_control', 'symlink_install': False, 'test_result_base': None}
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.118s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description', 'merge_install': False, 'path': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[1.119s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'cmake_args' from command line to 'None'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'cmake_target' from command line to 'None'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'cmake_clean_cache' from command line to 'False'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'cmake_clean_first' from command line to 'False'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'cmake_force_configure' from command line to 'False'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'ament_cmake_args' from command line to 'None'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'catkin_cmake_args' from command line to 'None'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_merger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.121s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_laser_scan_merger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger', 'merge_install': False, 'path': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ros2_laser_scan_merger', 'symlink_install': False, 'test_result_base': None}
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.122s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.123s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.123s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.128s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ddsm115_controller' with build type 'ament_python'
+[1.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('ddsm115_controller', 'ament_prefix_path')
+[1.137s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ddsm115_controller/hook/ament_prefix_path.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ddsm115_controller/hook/ament_prefix_path.dsv'
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ddsm115_controller/hook/ament_prefix_path.sh'
+[1.147s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.147s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.168s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/keyboard_control' with build type 'ament_python'
+[1.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_control', 'ament_prefix_path')
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/keyboard_control/hook/ament_prefix_path.ps1'
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/keyboard_control/hook/ament_prefix_path.dsv'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/keyboard_control/hook/ament_prefix_path.sh'
+[1.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.201s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/robot_description' with build type 'ament_cmake'
+[1.202s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/robot_description'
+[1.202s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.228s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ros2_laser_scan_merger' with build type 'ament_cmake'
+[1.229s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ros2_laser_scan_merger'
+[1.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.246s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ddsm115_controller'
+[2.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.245s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/keyboard_control'
+[3.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description -- -j4 -l4
+[3.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger -- -j4 -l4
+[3.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description -- -j4 -l4
+[3.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description
+[3.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[3.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description
+[3.755s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description' for CMake module files
+[3.761s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description' for CMake config files
+[3.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[3.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[3.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[3.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[3.780s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/bin'
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[3.784s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/lib/python3.12/site-packages'
+[3.788s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/bin'
+[3.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/package.ps1'
+[3.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/package.dsv'
+[3.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/package.sh'
+[3.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/package.bash'
+[3.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/package.zsh'
+[3.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[3.822s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[3.824s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description' for CMake module files
+[3.830s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description' for CMake config files
+[3.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[3.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[3.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[3.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[3.848s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/bin'
+[3.849s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[3.851s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/lib/python3.12/site-packages'
+[3.856s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/bin'
+[3.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/package.ps1'
+[3.864s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/package.dsv'
+[3.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/package.sh'
+[3.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/package.bash'
+[3.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/robot_description/package.zsh'
+[3.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[3.880s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[3.881s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/sllidar_ros2'
+[3.882s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.883s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger -- -j4 -l4
+[3.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger
+[3.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[4.031s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_laser_scan_merger)
+[4.032s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger' for CMake module files
+[4.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger
+[4.045s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger' for CMake config files
+[4.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_laser_scan_merger', 'cmake_prefix_path')
+[4.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/hook/cmake_prefix_path.ps1'
+[4.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/hook/cmake_prefix_path.dsv'
+[4.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/hook/cmake_prefix_path.sh'
+[4.059s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/lib'
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/bin'
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/lib/pkgconfig/ros2_laser_scan_merger.pc'
+[4.065s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/lib/python3.12/site-packages'
+[4.070s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/bin'
+[4.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.ps1'
+[4.078s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.dsv'
+[4.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.sh'
+[4.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.bash'
+[4.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.zsh'
+[4.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/colcon-core/packages/ros2_laser_scan_merger)
+[4.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_laser_scan_merger)
+[4.093s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger' for CMake module files
+[4.098s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger' for CMake config files
+[4.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_laser_scan_merger', 'cmake_prefix_path')
+[4.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/hook/cmake_prefix_path.ps1'
+[4.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/hook/cmake_prefix_path.dsv'
+[4.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/hook/cmake_prefix_path.sh'
+[4.112s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/lib'
+[4.112s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/bin'
+[4.113s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/lib/pkgconfig/ros2_laser_scan_merger.pc'
+[4.116s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/lib/python3.12/site-packages'
+[4.118s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/bin'
+[4.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.ps1'
+[4.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.dsv'
+[4.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.sh'
+[4.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.bash'
+[4.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.zsh'
+[4.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/colcon-core/packages/ros2_laser_scan_merger)
+[4.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[4.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2
+[4.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[4.846s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2' for CMake module files
+[4.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2
+[4.858s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2' for CMake config files
+[4.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[4.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[4.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[4.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[4.884s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/lib'
+[4.885s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/bin'
+[4.886s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[4.887s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[4.889s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/bin'
+[4.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[4.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[4.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[4.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[4.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[4.906s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[4.910s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[4.911s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2' for CMake module files
+[4.916s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2' for CMake config files
+[4.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[4.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[4.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[4.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[4.928s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/lib'
+[4.929s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/bin'
+[4.930s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[4.931s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[4.933s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/bin'
+[4.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[4.938s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[4.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[4.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[4.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[4.951s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[7.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ddsm115_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ddsm115_controller build --build-base /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build install --record /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/install.log --single-version-externally-managed install_data
+[7.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/keyboard_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build install --record /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log --single-version-externally-managed install_data
+[10.354s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller' for CMake module files
+[10.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ddsm115_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ddsm115_controller build --build-base /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build install --record /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/install.log --single-version-externally-managed install_data
+[10.361s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller' for CMake config files
+[10.369s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib'
+[10.370s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/bin'
+[10.371s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/pkgconfig/ddsm115_controller.pc'
+[10.373s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages'
+[10.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('ddsm115_controller', 'pythonpath')
+[10.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ddsm115_controller/hook/pythonpath.ps1'
+[10.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ddsm115_controller/hook/pythonpath.dsv'
+[10.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ddsm115_controller/hook/pythonpath.sh'
+[10.388s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/bin'
+[10.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ddsm115_controller)
+[10.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ddsm115_controller/package.ps1'
+[10.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ddsm115_controller/package.dsv'
+[10.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ddsm115_controller/package.sh'
+[10.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ddsm115_controller/package.bash'
+[10.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ddsm115_controller/package.zsh'
+[10.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/colcon-core/packages/ddsm115_controller)
+[10.487s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control' for CMake module files
+[10.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/keyboard_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build install --record /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log --single-version-externally-managed install_data
+[10.491s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control' for CMake config files
+[10.500s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib'
+[10.501s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/bin'
+[10.502s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/pkgconfig/keyboard_control.pc'
+[10.503s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages'
+[10.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_control', 'pythonpath')
+[10.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/keyboard_control/hook/pythonpath.ps1'
+[10.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/keyboard_control/hook/pythonpath.dsv'
+[10.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/keyboard_control/hook/pythonpath.sh'
+[10.514s] Level 1:colcon.colcon_core.environment:checking '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/bin'
+[10.514s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_control)
+[10.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/keyboard_control/package.ps1'
+[10.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/keyboard_control/package.dsv'
+[10.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/keyboard_control/package.sh'
+[10.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/keyboard_control/package.bash'
+[10.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/keyboard_control/package.zsh'
+[10.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/colcon-core/packages/keyboard_control)
+[10.528s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.531s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.531s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.534s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.534s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/local_setup.ps1'
+[10.538s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/_local_setup_util_ps1.py'
+[10.544s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/setup.ps1'
+[10.550s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/local_setup.sh'
+[10.553s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/_local_setup_util_sh.py'
+[10.556s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/setup.sh'
+[10.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/local_setup.bash'
+[10.564s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/setup.bash'
+[10.569s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/local_setup.zsh'
+[10.571s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/setup.zsh'

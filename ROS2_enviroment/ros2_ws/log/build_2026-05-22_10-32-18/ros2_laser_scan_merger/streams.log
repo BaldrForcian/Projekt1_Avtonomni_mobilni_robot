@@ -1,0 +1,29 @@
+[2.228s] Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger -- -j4 -l4
+[2.864s] [100%] Built target ros2_laser_scan_merger
+[3.033s] Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger -- -j4 -l4
+[3.040s] Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger
+[3.185s] -- Install configuration: ""
+[3.188s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch
+[3.190s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch/merge_2_scan.launch.py
+[3.192s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch/visualize_merge_2_scan.launch.py
+[3.193s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/config
+[3.197s] -- Installing: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/config/params.yaml
+[3.200s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/rviz
+[3.202s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/rviz/ros2_laser_scan_merge.rviz
+[3.217s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/lib/ros2_laser_scan_merger/ros2_laser_scan_merger
+[3.229s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ament_index/resource_index/package_run_dependencies/ros2_laser_scan_merger
+[3.231s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ament_index/resource_index/parent_prefix_path/ros2_laser_scan_merger
+[3.232s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/ament_prefix_path.sh
+[3.232s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/ament_prefix_path.dsv
+[3.234s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/path.sh
+[3.235s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/path.dsv
+[3.237s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.bash
+[3.243s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.sh
+[3.244s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.zsh
+[3.246s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.dsv
+[3.256s] -- Installing: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.dsv
+[3.257s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ament_index/resource_index/packages/ros2_laser_scan_merger
+[3.258s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/cmake/ros2_laser_scan_mergerConfig.cmake
+[3.258s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/cmake/ros2_laser_scan_mergerConfig-version.cmake
+[3.259s] -- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.xml
+[3.263s] Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger

@@ -1,0 +1,15 @@
+[5.172s] Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build --no-deps symlink_data
+[6.867s] running develop
+[8.030s] running egg_info
+[8.134s] writing keyboard_control.egg-info/PKG-INFO
+[8.135s] writing dependency_links to keyboard_control.egg-info/dependency_links.txt
+[8.137s] writing requirements to keyboard_control.egg-info/requires.txt
+[8.139s] writing top-level names to keyboard_control.egg-info/top_level.txt
+[8.346s] reading manifest file 'keyboard_control.egg-info/SOURCES.txt'
+[8.349s] writing manifest file 'keyboard_control.egg-info/SOURCES.txt'
+[8.458s] running build_ext
+[8.459s] Creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard-control.egg-link (link to .)
+[8.462s] 
+[8.463s] Installed /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control
+[8.464s] running symlink_data
+[8.686s] Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build --no-deps symlink_data

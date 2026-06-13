@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/wt901c_RS485/wt901c_RS485.egg-info/PKG-INFO
+writing dependency_links to ../build/wt901c_RS485/wt901c_RS485.egg-info/dependency_links.txt
+writing entry points to ../build/wt901c_RS485/wt901c_RS485.egg-info/entry_points.txt
+writing requirements to ../build/wt901c_RS485/wt901c_RS485.egg-info/requires.txt
+writing top-level names to ../build/wt901c_RS485/wt901c_RS485.egg-info/top_level.txt
+reading manifest file '../build/wt901c_RS485/wt901c_RS485.egg-info/SOURCES.txt'
+writing manifest file '../build/wt901c_RS485/wt901c_RS485.egg-info/SOURCES.txt'
+running build
+running build_py
+copying wt901c_RS485/wt901c.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/build/wt901c_RS485/build/lib/wt901c_RS485
+running install
+running install_lib
+copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/build/wt901c_RS485/build/lib/wt901c_RS485/wt901c.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/install/wt901c_RS485/lib/python3.12/site-packages/wt901c_RS485
+byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/install/wt901c_RS485/lib/python3.12/site-packages/wt901c_RS485/wt901c.py to wt901c.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/install/wt901c_RS485/lib/python3.12/site-packages/wt901c_RS485-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/wt901c_RS485/wt901c_RS485.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/install/wt901c_RS485/lib/python3.12/site-packages/wt901c_RS485-0.0.0-py3.12.egg-info
+running install_scripts
+Installing wt901c script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/install/wt901c_RS485/lib/wt901c_RS485
+writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/build/wt901c_RS485/install.log'

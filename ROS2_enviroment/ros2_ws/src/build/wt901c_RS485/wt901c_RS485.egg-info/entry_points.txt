@@ -1,0 +1,2 @@
+[console_scripts]
+wt901c = wt901c_RS485.wt901c:main

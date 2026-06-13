@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.000996] (ddsm115_controller) JobQueued: {'identifier': 'ddsm115_controller', 'dependencies': OrderedDict()}
+[0.001907] (keyboard_control) JobQueued: {'identifier': 'keyboard_control', 'dependencies': OrderedDict()}
+[0.002005] (ddsm115_controller) JobStarted: {'identifier': 'ddsm115_controller'}
+[0.038611] (keyboard_control) JobStarted: {'identifier': 'keyboard_control'}
+[0.099221] (-) TimerEvent: {}
+[0.199837] (-) TimerEvent: {}
+[0.300528] (-) TimerEvent: {}
+[0.401163] (-) TimerEvent: {}
+[0.501884] (-) TimerEvent: {}
+[0.602834] (-) TimerEvent: {}
+[0.703490] (-) TimerEvent: {}
+[0.804225] (-) TimerEvent: {}
+[0.905129] (-) TimerEvent: {}
+[1.005852] (-) TimerEvent: {}
+[1.106777] (-) TimerEvent: {}
+[1.207423] (-) TimerEvent: {}
+[1.308194] (-) TimerEvent: {}
+[1.408866] (-) TimerEvent: {}
+[1.509553] (-) TimerEvent: {}
+[1.610837] (-) TimerEvent: {}
+[1.711471] (-) TimerEvent: {}
+[1.812095] (-) TimerEvent: {}
+[1.912682] (-) TimerEvent: {}
+[2.013492] (-) TimerEvent: {}
+[2.114640] (-) TimerEvent: {}
+[2.215475] (-) TimerEvent: {}
+[2.316720] (-) TimerEvent: {}
+[2.417479] (-) TimerEvent: {}
+[2.518215] (-) TimerEvent: {}
+[2.618934] (-) TimerEvent: {}
+[2.719650] (-) TimerEvent: {}
+[2.820312] (-) TimerEvent: {}
+[2.920972] (-) TimerEvent: {}
+[3.021660] (-) TimerEvent: {}
+[3.122348] (-) TimerEvent: {}
+[3.222987] (-) TimerEvent: {}
+[3.323707] (-) TimerEvent: {}
+[3.424413] (-) TimerEvent: {}
+[3.525096] (-) TimerEvent: {}
+[3.625806] (-) TimerEvent: {}
+[3.726833] (-) TimerEvent: {}
+[3.828560] (-) TimerEvent: {}
+[3.929193] (-) TimerEvent: {}
+[4.029984] (-) TimerEvent: {}
+[4.130671] (-) TimerEvent: {}
+[4.231346] (-) TimerEvent: {}
+[4.332002] (-) TimerEvent: {}
+[4.433778] (-) TimerEvent: {}
+[4.534476] (-) TimerEvent: {}
+[4.635997] (-) TimerEvent: {}
+[4.736684] (-) TimerEvent: {}
+[4.837966] (-) TimerEvent: {}
+[4.938671] (-) TimerEvent: {}
+[5.039432] (-) TimerEvent: {}
+[5.140638] (-) TimerEvent: {}
+[5.242256] (-) TimerEvent: {}
+[5.267563] (ddsm115_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 51917 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'TERM_PROGRAM_VERSION': '1.117.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6753a7d2-6a29-4978-981d-b9a8e55c59fc.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 51917 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.342544] (-) TimerEvent: {}
+[5.375114] (keyboard_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/keyboard_control', 'build', '--build-base', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build', 'install', '--record', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/keyboard_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 51917 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'TERM_PROGRAM_VERSION': '1.117.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6753a7d2-6a29-4978-981d-b9a8e55c59fc.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 51917 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.442933] (-) TimerEvent: {}
+[5.544738] (-) TimerEvent: {}
+[5.646500] (-) TimerEvent: {}
+[5.747221] (-) TimerEvent: {}
+[5.848483] (-) TimerEvent: {}
+[5.949899] (-) TimerEvent: {}
+[6.050569] (-) TimerEvent: {}
+[6.151260] (-) TimerEvent: {}
+[6.252540] (-) TimerEvent: {}
+[6.353806] (-) TimerEvent: {}
+[6.454560] (-) TimerEvent: {}
+[6.555812] (-) TimerEvent: {}
+[6.656488] (-) TimerEvent: {}
+[6.757158] (-) TimerEvent: {}
+[6.777318] (keyboard_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.857331] (-) TimerEvent: {}
+[6.881319] (keyboard_control) StdoutLine: {'line': b'writing ../../build/keyboard_control/keyboard_control.egg-info/PKG-INFO\n'}
+[6.884100] (keyboard_control) StdoutLine: {'line': b'writing dependency_links to ../../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt\n'}
+[6.886530] (keyboard_control) StdoutLine: {'line': b'writing entry points to ../../build/keyboard_control/keyboard_control.egg-info/entry_points.txt\n'}
+[6.887779] (keyboard_control) StdoutLine: {'line': b'writing requirements to ../../build/keyboard_control/keyboard_control.egg-info/requires.txt\n'}
+[6.888718] (keyboard_control) StdoutLine: {'line': b'writing top-level names to ../../build/keyboard_control/keyboard_control.egg-info/top_level.txt\n'}
+[6.957494] (-) TimerEvent: {}
+[6.963317] (ddsm115_controller) StdoutLine: {'line': b'running develop\n'}
+[7.057699] (-) TimerEvent: {}
+[7.114301] (keyboard_control) StdoutLine: {'line': b"reading manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'\n"}
+[7.116614] (keyboard_control) StdoutLine: {'line': b"writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'\n"}
+[7.117561] (keyboard_control) StdoutLine: {'line': b'running build\n'}
+[7.119288] (keyboard_control) StdoutLine: {'line': b'running build_py\n'}
+[7.120355] (keyboard_control) StdoutLine: {'line': b'running install\n'}
+[7.147233] (keyboard_control) StdoutLine: {'line': b'running install_lib\n'}
+[7.157851] (-) TimerEvent: {}
+[7.255173] (keyboard_control) StdoutLine: {'line': b'running install_data\n'}
+[7.256564] (keyboard_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.258025] (-) TimerEvent: {}
+[7.359190] (-) TimerEvent: {}
+[7.363937] (keyboard_control) StdoutLine: {'line': b"removing '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.367231] (keyboard_control) StdoutLine: {'line': b'Copying ../../build/keyboard_control/keyboard_control.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control-0.0.0-py3.12.egg-info\n'}
+[7.374951] (keyboard_control) StdoutLine: {'line': b'running install_scripts\n'}
+[7.459363] (-) TimerEvent: {}
+[7.560002] (-) TimerEvent: {}
+[7.660673] (-) TimerEvent: {}
+[7.761326] (-) TimerEvent: {}
+[7.861937] (-) TimerEvent: {}
+[7.962670] (-) TimerEvent: {}
+[8.063508] (-) TimerEvent: {}
+[8.140282] (keyboard_control) StdoutLine: {'line': b'Installing one_motor_test script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/keyboard_control\n'}
+[8.141954] (keyboard_control) StdoutLine: {'line': b"writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log'\n"}
+[8.163794] (-) TimerEvent: {}
+[8.215679] (ddsm115_controller) StdoutLine: {'line': b'Removing /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115-controller.egg-link (link to .)\n'}
+[8.264311] (-) TimerEvent: {}
+[8.337186] (keyboard_control) CommandEnded: {'returncode': 0}
+[8.365069] (-) TimerEvent: {}
+[8.418102] (keyboard_control) JobEnded: {'identifier': 'keyboard_control', 'rc': 0}
+[8.423573] (ddsm115_controller) CommandEnded: {'returncode': 0}
+[8.427331] (ddsm115_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ddsm115_controller', 'build', '--build-base', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build', 'install', '--record', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ddsm115_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 51917 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'TERM_PROGRAM_VERSION': '1.117.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6753a7d2-6a29-4978-981d-b9a8e55c59fc.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 51917 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[8.465173] (-) TimerEvent: {}
+[8.565780] (-) TimerEvent: {}
+[8.666514] (-) TimerEvent: {}
+[8.767164] (-) TimerEvent: {}
+[8.867763] (-) TimerEvent: {}
+[8.968413] (-) TimerEvent: {}
+[9.068994] (-) TimerEvent: {}
+[9.169624] (-) TimerEvent: {}
+[9.270284] (-) TimerEvent: {}
+[9.370865] (-) TimerEvent: {}
+[9.471468] (-) TimerEvent: {}
+[9.572072] (-) TimerEvent: {}
+[9.656245] (ddsm115_controller) StdoutLine: {'line': b'running egg_info\n'}
+[9.672177] (-) TimerEvent: {}
+[9.756138] (ddsm115_controller) StdoutLine: {'line': b'writing ../../build/ddsm115_controller/ddsm115_controller.egg-info/PKG-INFO\n'}
+[9.757293] (ddsm115_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/ddsm115_controller/ddsm115_controller.egg-info/dependency_links.txt\n'}
+[9.758541] (ddsm115_controller) StdoutLine: {'line': b'writing entry points to ../../build/ddsm115_controller/ddsm115_controller.egg-info/entry_points.txt\n'}
+[9.759367] (ddsm115_controller) StdoutLine: {'line': b'writing requirements to ../../build/ddsm115_controller/ddsm115_controller.egg-info/requires.txt\n'}
+[9.760087] (ddsm115_controller) StdoutLine: {'line': b'writing top-level names to ../../build/ddsm115_controller/ddsm115_controller.egg-info/top_level.txt\n'}
+[9.772344] (-) TimerEvent: {}
+[9.872952] (-) TimerEvent: {}
+[9.946806] (ddsm115_controller) StdoutLine: {'line': b"reading manifest file '../../build/ddsm115_controller/ddsm115_controller.egg-info/SOURCES.txt'\n"}
+[9.951494] (ddsm115_controller) StdoutLine: {'line': b"writing manifest file '../../build/ddsm115_controller/ddsm115_controller.egg-info/SOURCES.txt'\n"}
+[9.952324] (ddsm115_controller) StdoutLine: {'line': b'running build\n'}
+[9.952898] (ddsm115_controller) StdoutLine: {'line': b'running build_py\n'}
+[9.953597] (ddsm115_controller) StdoutLine: {'line': b'creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build\n'}
+[9.954438] (ddsm115_controller) StdoutLine: {'line': b'creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib\n'}
+[9.955176] (ddsm115_controller) StdoutLine: {'line': b'creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller\n'}
+[9.956213] (ddsm115_controller) StdoutLine: {'line': b'copying ddsm115_controller/set_motor_id.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller\n'}
+[9.957157] (ddsm115_controller) StdoutLine: {'line': b'copying ddsm115_controller/__init__.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller\n'}
+[9.958080] (ddsm115_controller) StdoutLine: {'line': b'copying ddsm115_controller/check_motor_id.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller\n'}
+[9.959812] (ddsm115_controller) StdoutLine: {'line': b'copying ddsm115_controller/two_wheels_robot.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller\n'}
+[9.960824] (ddsm115_controller) StdoutLine: {'line': b'copying ddsm115_controller/ddsm115.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller\n'}
+[9.962769] (ddsm115_controller) StdoutLine: {'line': b'copying ddsm115_controller/velocity_control.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller\n'}
+[9.964312] (ddsm115_controller) StdoutLine: {'line': b'running install\n'}
+[9.973135] (-) TimerEvent: {}
+[9.990225] (ddsm115_controller) StdoutLine: {'line': b'running install_lib\n'}
+[10.073291] (-) TimerEvent: {}
+[10.082510] (ddsm115_controller) StdoutLine: {'line': b'creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller\n'}
+[10.083270] (ddsm115_controller) StdoutLine: {'line': b'copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller/set_motor_id.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller\n'}
+[10.084295] (ddsm115_controller) StdoutLine: {'line': b'copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller/__init__.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller\n'}
+[10.085184] (ddsm115_controller) StdoutLine: {'line': b'copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller/check_motor_id.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller\n'}
+[10.086200] (ddsm115_controller) StdoutLine: {'line': b'copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller/two_wheels_robot.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller\n'}
+[10.087295] (ddsm115_controller) StdoutLine: {'line': b'copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller/ddsm115.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller\n'}
+[10.088335] (ddsm115_controller) StdoutLine: {'line': b'copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller/velocity_control.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller\n'}
+[10.090979] (ddsm115_controller) StdoutLine: {'line': b'byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller/set_motor_id.py to set_motor_id.cpython-312.pyc\n'}
+[10.093965] (ddsm115_controller) StdoutLine: {'line': b'byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller/__init__.py to __init__.cpython-312.pyc\n'}
+[10.095442] (ddsm115_controller) StdoutLine: {'line': b'byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller/check_motor_id.py to check_motor_id.cpython-312.pyc\n'}
+[10.098522] (ddsm115_controller) StdoutLine: {'line': b'byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller/two_wheels_robot.py to two_wheels_robot.cpython-312.pyc\n'}
+[10.109316] (ddsm115_controller) StdoutLine: {'line': b'byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller/ddsm115.py to ddsm115.cpython-312.pyc\n'}
+[10.115739] (ddsm115_controller) StdoutLine: {'line': b'byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller/velocity_control.py to velocity_control.cpython-312.pyc\n'}
+[10.121898] (ddsm115_controller) StdoutLine: {'line': b'running install_data\n'}
+[10.122675] (ddsm115_controller) StdoutLine: {'line': b'copying resource/ddsm115_controller -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ament_index/resource_index/packages\n'}
+[10.123448] (ddsm115_controller) StdoutLine: {'line': b'copying package.xml -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ddsm115_controller\n'}
+[10.124486] (ddsm115_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.173443] (-) TimerEvent: {}
+[10.222272] (ddsm115_controller) StdoutLine: {'line': b'Copying ../../build/ddsm115_controller/ddsm115_controller.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller-0.0.0-py3.12.egg-info\n'}
+[10.230481] (ddsm115_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[10.273592] (-) TimerEvent: {}
+[10.374189] (-) TimerEvent: {}
+[10.474778] (-) TimerEvent: {}
+[10.575438] (-) TimerEvent: {}
+[10.675999] (-) TimerEvent: {}
+[10.776692] (-) TimerEvent: {}
+[10.877450] (-) TimerEvent: {}
+[10.911386] (ddsm115_controller) StdoutLine: {'line': b'Installing check_motor_id script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller\n'}
+[10.912367] (ddsm115_controller) StdoutLine: {'line': b'Installing set_motor_id script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller\n'}
+[10.913432] (ddsm115_controller) StdoutLine: {'line': b'Installing two_wheels_robot script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller\n'}
+[10.915112] (ddsm115_controller) StdoutLine: {'line': b'Installing velocity_control script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller\n'}
+[10.917490] (ddsm115_controller) StdoutLine: {'line': b"writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/install.log'\n"}
+[10.977707] (-) TimerEvent: {}
+[11.063078] (ddsm115_controller) CommandEnded: {'returncode': 0}
+[11.078131] (-) TimerEvent: {}
+[11.099262] (ddsm115_controller) JobEnded: {'identifier': 'ddsm115_controller', 'rc': 0}
+[11.102591] (-) EventReactorShutdown: {}

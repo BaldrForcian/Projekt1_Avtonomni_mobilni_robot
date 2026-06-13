@@ -1,0 +1,35 @@
+[3.894s] Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build
+[5.377s] running develop
+[6.419s] Removing /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard-control.egg-link (link to .)
+[6.578s] Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build
+[6.584s] Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/keyboard_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build install --record /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log --single-version-externally-managed install_data --force
+[7.822s] running egg_info
+[7.911s] writing ../../build/keyboard_control/keyboard_control.egg-info/PKG-INFO
+[7.912s] writing dependency_links to ../../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt
+[7.914s] writing requirements to ../../build/keyboard_control/keyboard_control.egg-info/requires.txt
+[7.915s] writing top-level names to ../../build/keyboard_control/keyboard_control.egg-info/top_level.txt
+[8.103s] reading manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[8.106s] writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[8.107s] running build
+[8.108s] running build_py
+[8.108s] creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build
+[8.109s] creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build/lib
+[8.109s] creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build/lib/keyboard_control
+[8.110s] copying keyboard_control/__init__.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build/lib/keyboard_control
+[8.111s] copying keyboard_control/one_motor_test.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build/lib/keyboard_control
+[8.111s] running install
+[8.136s] running install_lib
+[8.229s] creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control
+[8.229s] copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build/lib/keyboard_control/__init__.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control
+[8.230s] copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build/lib/keyboard_control/one_motor_test.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control
+[8.233s] byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control/__init__.py to __init__.cpython-312.pyc
+[8.235s] byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control/one_motor_test.py to one_motor_test.cpython-312.pyc
+[8.236s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (one_motor_test.py, line 33)
+[8.236s] running install_data
+[8.237s] copying resource/keyboard_control -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/ament_index/resource_index/packages
+[8.237s] copying package.xml -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/keyboard_control
+[8.238s] running install_egg_info
+[8.336s] Copying ../../build/keyboard_control/keyboard_control.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control-0.0.0-py3.12.egg-info
+[8.340s] running install_scripts
+[9.024s] writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log'
+[9.170s] Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/keyboard_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build install --record /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log --single-version-externally-managed install_data --force

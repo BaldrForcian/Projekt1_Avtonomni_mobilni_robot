@@ -1,0 +1,24 @@
+[9.761s] Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ddsm115_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ddsm115_controller build --build-base /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build install --record /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/install.log --single-version-externally-managed install_data
+[12.341s] running egg_info
+[12.516s] writing ../../build/ddsm115_controller/ddsm115_controller.egg-info/PKG-INFO
+[12.522s] writing dependency_links to ../../build/ddsm115_controller/ddsm115_controller.egg-info/dependency_links.txt
+[12.524s] writing entry points to ../../build/ddsm115_controller/ddsm115_controller.egg-info/entry_points.txt
+[12.525s] writing requirements to ../../build/ddsm115_controller/ddsm115_controller.egg-info/requires.txt
+[12.530s] writing top-level names to ../../build/ddsm115_controller/ddsm115_controller.egg-info/top_level.txt
+[13.016s] reading manifest file '../../build/ddsm115_controller/ddsm115_controller.egg-info/SOURCES.txt'
+[13.024s] writing manifest file '../../build/ddsm115_controller/ddsm115_controller.egg-info/SOURCES.txt'
+[13.027s] running build
+[13.032s] running build_py
+[13.036s] running install
+[13.117s] running install_lib
+[13.403s] running install_data
+[13.406s] running install_egg_info
+[13.694s] removing '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[13.695s] Copying ../../build/ddsm115_controller/ddsm115_controller.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller-0.0.0-py3.12.egg-info
+[13.704s] running install_scripts
+[15.035s] Installing check_motor_id script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller
+[15.071s] Installing set_motor_id script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller
+[15.073s] Installing two_wheels_robot script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller
+[15.074s] Installing velocity_control script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller
+[15.077s] writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/install.log'
+[15.270s] Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ddsm115_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ddsm115_controller build --build-base /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build install --record /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/install.log --single-version-externally-managed install_data

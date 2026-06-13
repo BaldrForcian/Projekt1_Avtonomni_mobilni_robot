@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.001071] (-) JobUnselected: {'identifier': 'ddsm115_controller'}
+[0.002051] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.002671] (-) JobUnselected: {'identifier': 'ros2_laser_scan_merger'}
+[0.002763] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.002843] (-) JobUnselected: {'identifier': 'wt901c_RS485'}
+[0.002967] (keyboard_control) JobQueued: {'identifier': 'keyboard_control', 'dependencies': OrderedDict()}
+[0.003561] (keyboard_control) JobStarted: {'identifier': 'keyboard_control'}
+[0.099177] (-) TimerEvent: {}
+[0.199999] (-) TimerEvent: {}
+[0.302234] (-) TimerEvent: {}
+[0.402829] (-) TimerEvent: {}
+[0.503658] (-) TimerEvent: {}
+[0.604436] (-) TimerEvent: {}
+[0.705224] (-) TimerEvent: {}
+[0.805847] (-) TimerEvent: {}
+[0.909008] (-) TimerEvent: {}
+[1.009604] (-) TimerEvent: {}
+[1.110320] (-) TimerEvent: {}
+[1.211074] (-) TimerEvent: {}
+[1.312258] (-) TimerEvent: {}
+[1.413041] (-) TimerEvent: {}
+[1.514021] (-) TimerEvent: {}
+[1.615458] (-) TimerEvent: {}
+[1.716564] (-) TimerEvent: {}
+[1.819005] (-) TimerEvent: {}
+[1.919733] (-) TimerEvent: {}
+[2.020396] (-) TimerEvent: {}
+[2.121127] (-) TimerEvent: {}
+[2.221753] (-) TimerEvent: {}
+[2.322334] (-) TimerEvent: {}
+[2.422984] (-) TimerEvent: {}
+[2.523612] (-) TimerEvent: {}
+[2.624238] (-) TimerEvent: {}
+[2.724935] (-) TimerEvent: {}
+[2.826132] (-) TimerEvent: {}
+[2.926755] (-) TimerEvent: {}
+[3.027535] (-) TimerEvent: {}
+[3.128259] (-) TimerEvent: {}
+[3.229292] (-) TimerEvent: {}
+[3.330991] (-) TimerEvent: {}
+[3.431662] (-) TimerEvent: {}
+[3.532572] (-) TimerEvent: {}
+[3.633598] (-) TimerEvent: {}
+[3.734628] (-) TimerEvent: {}
+[3.835312] (-) TimerEvent: {}
+[3.935923] (-) TimerEvent: {}
+[4.036711] (-) TimerEvent: {}
+[4.137415] (-) TimerEvent: {}
+[4.238094] (-) TimerEvent: {}
+[4.339035] (-) TimerEvent: {}
+[4.440131] (-) TimerEvent: {}
+[4.540746] (-) TimerEvent: {}
+[4.641491] (-) TimerEvent: {}
+[4.742160] (-) TimerEvent: {}
+[4.843116] (-) TimerEvent: {}
+[4.944450] (-) TimerEvent: {}
+[5.018250] (keyboard_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/keyboard_control', 'build', '--build-base', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build', 'install', '--record', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/keyboard_control', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.169.1 60613 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'TERM_PROGRAM_VERSION': '1.124.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-fc1917af-9f2f-4086-941d-42fb0debc7c6.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control', 'LC_ALL': 'en_US.UTF-8', 'COPILOT_DEBUG_NONCE': '1dd920f7bc3d081fa72ac3a951e8550b', 'SSH_CONNECTION': '192.168.169.1 60613 192.168.169.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/python3.12/site-packages:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.045068] (-) TimerEvent: {}
+[5.147959] (-) TimerEvent: {}
+[5.251373] (-) TimerEvent: {}
+[5.355663] (-) TimerEvent: {}
+[5.457539] (-) TimerEvent: {}
+[5.558546] (-) TimerEvent: {}
+[5.659269] (-) TimerEvent: {}
+[5.759928] (-) TimerEvent: {}
+[5.860651] (-) TimerEvent: {}
+[5.961686] (-) TimerEvent: {}
+[6.062760] (-) TimerEvent: {}
+[6.163412] (-) TimerEvent: {}
+[6.264015] (-) TimerEvent: {}
+[6.364742] (-) TimerEvent: {}
+[6.465372] (-) TimerEvent: {}
+[6.566383] (-) TimerEvent: {}
+[6.667081] (-) TimerEvent: {}
+[6.770193] (-) TimerEvent: {}
+[6.799313] (keyboard_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.870340] (-) TimerEvent: {}
+[6.919454] (keyboard_control) StdoutLine: {'line': b'writing ../../build/keyboard_control/keyboard_control.egg-info/PKG-INFO\n'}
+[6.920602] (keyboard_control) StdoutLine: {'line': b'writing dependency_links to ../../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt\n'}
+[6.924496] (keyboard_control) StdoutLine: {'line': b'writing entry points to ../../build/keyboard_control/keyboard_control.egg-info/entry_points.txt\n'}
+[6.925276] (keyboard_control) StdoutLine: {'line': b'writing requirements to ../../build/keyboard_control/keyboard_control.egg-info/requires.txt\n'}
+[6.925723] (keyboard_control) StdoutLine: {'line': b'writing top-level names to ../../build/keyboard_control/keyboard_control.egg-info/top_level.txt\n'}
+[6.970512] (-) TimerEvent: {}
+[7.071317] (-) TimerEvent: {}
+[7.172017] (-) TimerEvent: {}
+[7.175673] (keyboard_control) StdoutLine: {'line': b"reading manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'\n"}
+[7.180634] (keyboard_control) StdoutLine: {'line': b"writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'\n"}
+[7.181692] (keyboard_control) StdoutLine: {'line': b'running build\n'}
+[7.183056] (keyboard_control) StdoutLine: {'line': b'running build_py\n'}
+[7.184301] (keyboard_control) StdoutLine: {'line': b'copying keyboard_control/diff_drive_odom.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build/lib/keyboard_control\n'}
+[7.185187] (keyboard_control) StdoutLine: {'line': b'running install\n'}
+[7.213227] (keyboard_control) StdoutLine: {'line': b'running install_lib\n'}
+[7.275114] (-) TimerEvent: {}
+[7.331101] (keyboard_control) StdoutLine: {'line': b'copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build/lib/keyboard_control/diff_drive_odom.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control\n'}
+[7.335344] (keyboard_control) StdoutLine: {'line': b'byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control/diff_drive_odom.py to diff_drive_odom.cpython-312.pyc\n'}
+[7.343259] (keyboard_control) StdoutLine: {'line': b'running install_data\n'}
+[7.344138] (keyboard_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.375249] (-) TimerEvent: {}
+[7.472258] (keyboard_control) StdoutLine: {'line': b"removing '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.475434] (-) TimerEvent: {}
+[7.478553] (keyboard_control) StdoutLine: {'line': b'Copying ../../build/keyboard_control/keyboard_control.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control-0.0.0-py3.12.egg-info\n'}
+[7.485144] (keyboard_control) StdoutLine: {'line': b'running install_scripts\n'}
+[7.575587] (-) TimerEvent: {}
+[7.676254] (-) TimerEvent: {}
+[7.776838] (-) TimerEvent: {}
+[7.877604] (-) TimerEvent: {}
+[7.979498] (-) TimerEvent: {}
+[8.080267] (-) TimerEvent: {}
+[8.182015] (-) TimerEvent: {}
+[8.282676] (-) TimerEvent: {}
+[8.383966] (-) TimerEvent: {}
+[8.421299] (keyboard_control) StdoutLine: {'line': b'Installing diff_drive_odom script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/keyboard_control\n'}
+[8.422527] (keyboard_control) StdoutLine: {'line': b'Installing one_motor_test script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/keyboard_control\n'}
+[8.425238] (keyboard_control) StdoutLine: {'line': b"writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log'\n"}
+[8.484267] (-) TimerEvent: {}
+[8.585412] (-) TimerEvent: {}
+[8.607790] (keyboard_control) CommandEnded: {'returncode': 0}
+[8.666002] (keyboard_control) JobEnded: {'identifier': 'keyboard_control', 'rc': 0}
+[8.670618] (-) EventReactorShutdown: {}

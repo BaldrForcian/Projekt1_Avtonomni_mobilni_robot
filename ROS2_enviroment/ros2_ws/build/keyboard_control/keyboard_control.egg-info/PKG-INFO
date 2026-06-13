@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: keyboard-control
+Version: 0.0.0
+Summary: Vmesni ros2 package za povezavo ddsm115_controller knjiznice in teleop_twist_keyboard knjiznice
+Maintainer: feri
+Maintainer-email: feri@todo.todo
+License: TODO: License declaration
+Provides-Extra: test

@@ -1,0 +1,30 @@
+running develop
+Removing /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard-control.egg-link (link to .)
+running egg_info
+writing ../../build/keyboard_control/keyboard_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt
+writing requirements to ../../build/keyboard_control/keyboard_control.egg-info/requires.txt
+writing top-level names to ../../build/keyboard_control/keyboard_control.egg-info/top_level.txt
+reading manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build
+creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build/lib
+creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build/lib/keyboard_control
+copying keyboard_control/__init__.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build/lib/keyboard_control
+copying keyboard_control/one_motor_test.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build/lib/keyboard_control
+running install
+running install_lib
+creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control
+copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build/lib/keyboard_control/__init__.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control
+copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build/lib/keyboard_control/one_motor_test.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control
+byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control/one_motor_test.py to one_motor_test.cpython-312.pyc
+running install_data
+copying resource/keyboard_control -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/share/keyboard_control
+running install_egg_info
+Copying ../../build/keyboard_control/keyboard_control.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log'

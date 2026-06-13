@@ -1,0 +1,502 @@
+[0.000000] (-) TimerEvent: {}
+[0.000975] (ddsm115_controller) JobQueued: {'identifier': 'ddsm115_controller', 'dependencies': OrderedDict()}
+[0.001977] (keyboard_control) JobQueued: {'identifier': 'keyboard_control', 'dependencies': OrderedDict()}
+[0.002505] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.003032] (ros2_laser_scan_merger) JobQueued: {'identifier': 'ros2_laser_scan_merger', 'dependencies': OrderedDict()}
+[0.003206] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.003471] (ddsm115_controller) JobStarted: {'identifier': 'ddsm115_controller'}
+[0.052635] (keyboard_control) JobStarted: {'identifier': 'keyboard_control'}
+[0.079450] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.099612] (-) TimerEvent: {}
+[0.100680] (ros2_laser_scan_merger) JobStarted: {'identifier': 'ros2_laser_scan_merger'}
+[0.199799] (-) TimerEvent: {}
+[0.300501] (-) TimerEvent: {}
+[0.401199] (-) TimerEvent: {}
+[0.501918] (-) TimerEvent: {}
+[0.602978] (-) TimerEvent: {}
+[0.703888] (-) TimerEvent: {}
+[0.804596] (-) TimerEvent: {}
+[0.905235] (-) TimerEvent: {}
+[1.006034] (-) TimerEvent: {}
+[1.107000] (-) TimerEvent: {}
+[1.207668] (-) TimerEvent: {}
+[1.308440] (-) TimerEvent: {}
+[1.409201] (-) TimerEvent: {}
+[1.509951] (-) TimerEvent: {}
+[1.610708] (-) TimerEvent: {}
+[1.711357] (-) TimerEvent: {}
+[1.811995] (-) TimerEvent: {}
+[1.912717] (-) TimerEvent: {}
+[2.013412] (-) TimerEvent: {}
+[2.114174] (-) TimerEvent: {}
+[2.156545] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[2.158734] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/robot_description', '-DCMAKE_INSTALL_PREFIX=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 62706 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b65e3010-1a92-4c8f-8a7b-c117e19cab56.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 62706 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[2.183444] (ros2_laser_scan_merger) JobProgress: {'identifier': 'ros2_laser_scan_merger', 'progress': 'cmake'}
+[2.195070] (ros2_laser_scan_merger) JobProgress: {'identifier': 'ros2_laser_scan_merger', 'progress': 'build'}
+[2.199967] (ros2_laser_scan_merger) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger', '--', '-j4', '-l4'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 62706 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b65e3010-1a92-4c8f-8a7b-c117e19cab56.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 62706 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.215095] (-) TimerEvent: {}
+[2.318119] (-) TimerEvent: {}
+[2.421449] (-) TimerEvent: {}
+[2.522579] (-) TimerEvent: {}
+[2.623487] (-) TimerEvent: {}
+[2.725598] (-) TimerEvent: {}
+[2.828402] (-) TimerEvent: {}
+[2.929390] (-) TimerEvent: {}
+[3.031041] (-) TimerEvent: {}
+[3.132647] (-) TimerEvent: {}
+[3.233763] (-) TimerEvent: {}
+[3.337404] (-) TimerEvent: {}
+[3.438371] (-) TimerEvent: {}
+[3.542391] (-) TimerEvent: {}
+[3.643297] (-) TimerEvent: {}
+[3.678386] (robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[3.743420] (-) TimerEvent: {}
+[3.844171] (-) TimerEvent: {}
+[3.945193] (-) TimerEvent: {}
+[3.980439] (ros2_laser_scan_merger) StdoutLine: {'line': b'[100%] Built target ros2_laser_scan_merger\n'}
+[4.040281] (ros2_laser_scan_merger) CommandEnded: {'returncode': 0}
+[4.045473] (-) TimerEvent: {}
+[4.050450] (ros2_laser_scan_merger) JobProgress: {'identifier': 'ros2_laser_scan_merger', 'progress': 'install'}
+[4.110037] (ros2_laser_scan_merger) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 62706 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b65e3010-1a92-4c8f-8a7b-c117e19cab56.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 62706 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.145644] (-) TimerEvent: {}
+[4.159339] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.160229] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch\n'}
+[4.160993] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch/merge_2_scan.launch.py\n'}
+[4.162019] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch/visualize_merge_2_scan.launch.py\n'}
+[4.163438] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/config\n'}
+[4.163937] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/config/params.yaml\n'}
+[4.164317] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/rviz\n'}
+[4.164706] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/rviz/ros2_laser_scan_merge.rviz\n'}
+[4.182459] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/lib/ros2_laser_scan_merger/ros2_laser_scan_merger\n'}
+[4.185752] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ament_index/resource_index/package_run_dependencies/ros2_laser_scan_merger\n'}
+[4.186854] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ament_index/resource_index/parent_prefix_path/ros2_laser_scan_merger\n'}
+[4.187996] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/ament_prefix_path.sh\n'}
+[4.190332] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/ament_prefix_path.dsv\n'}
+[4.191805] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/path.sh\n'}
+[4.192801] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/path.dsv\n'}
+[4.193451] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.bash\n'}
+[4.194127] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.sh\n'}
+[4.195065] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.zsh\n'}
+[4.195739] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.dsv\n'}
+[4.196213] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Installing: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.dsv\n'}
+[4.200611] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ament_index/resource_index/packages/ros2_laser_scan_merger\n'}
+[4.201358] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/cmake/ros2_laser_scan_mergerConfig.cmake\n'}
+[4.202058] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/cmake/ros2_laser_scan_mergerConfig-version.cmake\n'}
+[4.202862] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.xml\n'}
+[4.211209] (ros2_laser_scan_merger) CommandEnded: {'returncode': 0}
+[4.245830] (-) TimerEvent: {}
+[4.346669] (-) TimerEvent: {}
+[4.374635] (ros2_laser_scan_merger) JobEnded: {'identifier': 'ros2_laser_scan_merger', 'rc': 0}
+[4.379244] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[4.407769] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[4.414377] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[4.415390] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 62706 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b65e3010-1a92-4c8f-8a7b-c117e19cab56.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 62706 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.446960] (-) TimerEvent: {}
+[4.547788] (-) TimerEvent: {}
+[4.649351] (-) TimerEvent: {}
+[4.703523] (robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[4.749541] (-) TimerEvent: {}
+[4.851311] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.852125] (-) TimerEvent: {}
+[4.885895] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[4.948757] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[4.952456] (-) TimerEvent: {}
+[5.030475] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[5.037942] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[5.042524] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 62706 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b65e3010-1a92-4c8f-8a7b-c117e19cab56.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 62706 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.054440] (-) TimerEvent: {}
+[5.094643] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.097838] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch\n'}
+[5.099969] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[5.102388] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[5.103003] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[5.103638] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[5.104243] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[5.107564] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[5.109879] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[5.111843] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__\n'}
+[5.113564] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_c1_launch.cpython-312.pyc\n'}
+[5.114161] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[5.114823] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[5.115461] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[5.118838] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[5.119483] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[5.120097] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[5.122464] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[5.123138] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[5.123867] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[5.124568] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[5.125376] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[5.125943] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[5.126651] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[5.127957] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[5.128686] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[5.131778] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[5.134075] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[5.135990] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_dual_launch.py\n'}
+[5.136624] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz\n'}
+[5.137109] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[5.137789] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[5.138560] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[5.139116] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[5.140346] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[5.141093] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[5.141730] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[5.142549] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[5.143522] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[5.144329] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[5.144980] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[5.145776] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[5.146397] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[5.146806] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[5.147268] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[5.147781] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.148168] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.148555] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[5.148888] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[5.149383] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[5.153550] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[5.154874] (-) TimerEvent: {}
+[5.235980] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[5.255062] (-) TimerEvent: {}
+[5.359812] (-) TimerEvent: {}
+[5.460756] (-) TimerEvent: {}
+[5.477170] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.517477] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.519062] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.521978] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.560965] (-) TimerEvent: {}
+[5.579675] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.661133] (-) TimerEvent: {}
+[5.762429] (-) TimerEvent: {}
+[5.864057] (-) TimerEvent: {}
+[5.966773] (-) TimerEvent: {}
+[6.067750] (-) TimerEvent: {}
+[6.169670] (-) TimerEvent: {}
+[6.229791] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.269878] (-) TimerEvent: {}
+[6.282751] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.288407] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.290424] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.361400] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.370082] (-) TimerEvent: {}
+[6.471166] (-) TimerEvent: {}
+[6.573721] (-) TimerEvent: {}
+[6.675716] (-) TimerEvent: {}
+[6.777211] (-) TimerEvent: {}
+[6.879652] (-) TimerEvent: {}
+[6.980394] (-) TimerEvent: {}
+[7.081087] (-) TimerEvent: {}
+[7.181991] (-) TimerEvent: {}
+[7.282895] (-) TimerEvent: {}
+[7.351460] (robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.383085] (-) TimerEvent: {}
+[7.484476] (-) TimerEvent: {}
+[7.587393] (-) TimerEvent: {}
+[7.688377] (-) TimerEvent: {}
+[7.791523] (-) TimerEvent: {}
+[7.893045] (-) TimerEvent: {}
+[7.995415] (-) TimerEvent: {}
+[8.068617] (keyboard_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/keyboard_control', 'build', '--build-base', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build', 'install', '--record', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/keyboard_control', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 62706 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b65e3010-1a92-4c8f-8a7b-c117e19cab56.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 62706 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[8.080385] (ddsm115_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ddsm115_controller', 'build', '--build-base', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build', 'install', '--record', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ddsm115_controller', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 62706 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b65e3010-1a92-4c8f-8a7b-c117e19cab56.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 62706 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[8.095584] (-) TimerEvent: {}
+[8.196525] (-) TimerEvent: {}
+[8.297603] (-) TimerEvent: {}
+[8.398376] (-) TimerEvent: {}
+[8.404025] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[8.498600] (-) TimerEvent: {}
+[8.599621] (-) TimerEvent: {}
+[8.703793] (-) TimerEvent: {}
+[8.789700] (robot_description) StderrLine: {'line': b"Error parsing '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/robot_description/package.xml':\n"}
+[8.804488] (-) TimerEvent: {}
+[8.905241] (-) TimerEvent: {}
+[9.006019] (-) TimerEvent: {}
+[9.106825] (-) TimerEvent: {}
+[9.207584] (-) TimerEvent: {}
+[9.308297] (-) TimerEvent: {}
+[9.408990] (-) TimerEvent: {}
+[9.509754] (-) TimerEvent: {}
+[9.610542] (-) TimerEvent: {}
+[9.712226] (-) TimerEvent: {}
+[9.718344] (keyboard_control) StdoutLine: {'line': b'running egg_info\n'}
+[9.774126] (ddsm115_controller) StdoutLine: {'line': b'running egg_info\n'}
+[9.812389] (-) TimerEvent: {}
+[9.837730] (keyboard_control) StdoutLine: {'line': b'writing ../../build/keyboard_control/keyboard_control.egg-info/PKG-INFO\n'}
+[9.840109] (keyboard_control) StdoutLine: {'line': b'writing dependency_links to ../../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt\n'}
+[9.841028] (keyboard_control) StdoutLine: {'line': b'writing entry points to ../../build/keyboard_control/keyboard_control.egg-info/entry_points.txt\n'}
+[9.841807] (keyboard_control) StdoutLine: {'line': b'writing requirements to ../../build/keyboard_control/keyboard_control.egg-info/requires.txt\n'}
+[9.842948] (keyboard_control) StdoutLine: {'line': b'writing top-level names to ../../build/keyboard_control/keyboard_control.egg-info/top_level.txt\n'}
+[9.912561] (-) TimerEvent: {}
+[9.913993] (ddsm115_controller) StdoutLine: {'line': b'writing ../../build/ddsm115_controller/ddsm115_controller.egg-info/PKG-INFO\n'}
+[9.915225] (ddsm115_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/ddsm115_controller/ddsm115_controller.egg-info/dependency_links.txt\n'}
+[9.916758] (ddsm115_controller) StdoutLine: {'line': b'writing entry points to ../../build/ddsm115_controller/ddsm115_controller.egg-info/entry_points.txt\n'}
+[9.918052] (ddsm115_controller) StdoutLine: {'line': b'writing requirements to ../../build/ddsm115_controller/ddsm115_controller.egg-info/requires.txt\n'}
+[9.919306] (ddsm115_controller) StdoutLine: {'line': b'writing top-level names to ../../build/ddsm115_controller/ddsm115_controller.egg-info/top_level.txt\n'}
+[10.012740] (-) TimerEvent: {}
+[10.090916] (keyboard_control) StdoutLine: {'line': b"reading manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'\n"}
+[10.095617] (keyboard_control) StdoutLine: {'line': b"writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'\n"}
+[10.096575] (keyboard_control) StdoutLine: {'line': b'running build\n'}
+[10.098557] (keyboard_control) StdoutLine: {'line': b'running build_py\n'}
+[10.099479] (keyboard_control) StdoutLine: {'line': b'running install\n'}
+[10.112892] (-) TimerEvent: {}
+[10.127870] (keyboard_control) StdoutLine: {'line': b'running install_lib\n'}
+[10.213227] (-) TimerEvent: {}
+[10.223093] (ddsm115_controller) StdoutLine: {'line': b"reading manifest file '../../build/ddsm115_controller/ddsm115_controller.egg-info/SOURCES.txt'\n"}
+[10.226862] (ddsm115_controller) StdoutLine: {'line': b"writing manifest file '../../build/ddsm115_controller/ddsm115_controller.egg-info/SOURCES.txt'\n"}
+[10.227775] (ddsm115_controller) StdoutLine: {'line': b'running build\n'}
+[10.228529] (ddsm115_controller) StdoutLine: {'line': b'running build_py\n'}
+[10.231687] (ddsm115_controller) StdoutLine: {'line': b'running install\n'}
+[10.255656] (keyboard_control) StdoutLine: {'line': b'running install_data\n'}
+[10.257419] (keyboard_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.263523] (ddsm115_controller) StdoutLine: {'line': b'running install_lib\n'}
+[10.313540] (-) TimerEvent: {}
+[10.380889] (keyboard_control) StdoutLine: {'line': b"removing '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[10.383617] (keyboard_control) StdoutLine: {'line': b'Copying ../../build/keyboard_control/keyboard_control.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control-0.0.0-py3.12.egg-info\n'}
+[10.395377] (keyboard_control) StdoutLine: {'line': b'running install_scripts\n'}
+[10.416485] (ddsm115_controller) StdoutLine: {'line': b'running install_data\n'}
+[10.417239] (-) TimerEvent: {}
+[10.417753] (ddsm115_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.517414] (-) TimerEvent: {}
+[10.574809] (ddsm115_controller) StdoutLine: {'line': b"removing '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[10.581369] (ddsm115_controller) StdoutLine: {'line': b'Copying ../../build/ddsm115_controller/ddsm115_controller.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller-0.0.0-py3.12.egg-info\n'}
+[10.586910] (ddsm115_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[10.617576] (-) TimerEvent: {}
+[10.719185] (-) TimerEvent: {}
+[10.820799] (-) TimerEvent: {}
+[10.922578] (-) TimerEvent: {}
+[11.024205] (-) TimerEvent: {}
+[11.126158] (-) TimerEvent: {}
+[11.226998] (-) TimerEvent: {}
+[11.285562] (keyboard_control) StdoutLine: {'line': b'Installing diff_drive_odom script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/keyboard_control\n'}
+[11.288097] (keyboard_control) StdoutLine: {'line': b'Installing one_motor_test script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/keyboard_control\n'}
+[11.292184] (keyboard_control) StdoutLine: {'line': b"writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log'\n"}
+[11.327361] (-) TimerEvent: {}
+[11.428620] (-) TimerEvent: {}
+[11.473854] (keyboard_control) CommandEnded: {'returncode': 0}
+[11.514000] (keyboard_control) JobEnded: {'identifier': 'keyboard_control', 'rc': 0}
+[11.528770] (-) TimerEvent: {}
+[11.629408] (-) TimerEvent: {}
+[11.675738] (ddsm115_controller) StdoutLine: {'line': b'Installing check_motor_id script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller\n'}
+[11.676723] (ddsm115_controller) StdoutLine: {'line': b'Installing set_motor_id script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller\n'}
+[11.677684] (ddsm115_controller) StdoutLine: {'line': b'Installing two_wheels_robot script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller\n'}
+[11.678591] (ddsm115_controller) StdoutLine: {'line': b'Installing velocity_control script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller\n'}
+[11.680626] (ddsm115_controller) StdoutLine: {'line': b"writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/install.log'\n"}
+[11.729723] (-) TimerEvent: {}
+[11.830844] (-) TimerEvent: {}
+[11.848553] (ddsm115_controller) CommandEnded: {'returncode': 0}
+[11.886908] (ddsm115_controller) JobEnded: {'identifier': 'ddsm115_controller', 'rc': 0}
+[11.931141] (-) TimerEvent: {}
+[12.032108] (-) TimerEvent: {}
+[12.132894] (-) TimerEvent: {}
+[12.233675] (-) TimerEvent: {}
+[12.334409] (-) TimerEvent: {}
+[12.435121] (-) TimerEvent: {}
+[12.535933] (-) TimerEvent: {}
+[12.636688] (-) TimerEvent: {}
+[12.737687] (-) TimerEvent: {}
+[12.838412] (-) TimerEvent: {}
+[12.939132] (-) TimerEvent: {}
+[13.039897] (-) TimerEvent: {}
+[13.140618] (-) TimerEvent: {}
+[13.241347] (-) TimerEvent: {}
+[13.342025] (-) TimerEvent: {}
+[13.443101] (-) TimerEvent: {}
+[13.544845] (-) TimerEvent: {}
+[13.646964] (-) TimerEvent: {}
+[13.748614] (-) TimerEvent: {}
+[13.850366] (-) TimerEvent: {}
+[13.952234] (-) TimerEvent: {}
+[14.054008] (-) TimerEvent: {}
+[14.155625] (-) TimerEvent: {}
+[14.257521] (-) TimerEvent: {}
+[14.359389] (-) TimerEvent: {}
+[14.460978] (-) TimerEvent: {}
+[14.562739] (-) TimerEvent: {}
+[14.664568] (-) TimerEvent: {}
+[14.766092] (-) TimerEvent: {}
+[14.867783] (-) TimerEvent: {}
+[14.969637] (-) TimerEvent: {}
+[15.071209] (-) TimerEvent: {}
+[15.172737] (-) TimerEvent: {}
+[15.274599] (-) TimerEvent: {}
+[15.376200] (-) TimerEvent: {}
+[15.478005] (-) TimerEvent: {}
+[15.579973] (-) TimerEvent: {}
+[15.681600] (-) TimerEvent: {}
+[15.783121] (-) TimerEvent: {}
+[15.884957] (-) TimerEvent: {}
+[15.986676] (-) TimerEvent: {}
+[16.088677] (-) TimerEvent: {}
+[16.190631] (-) TimerEvent: {}
+[16.292617] (-) TimerEvent: {}
+[16.394608] (-) TimerEvent: {}
+[16.496396] (-) TimerEvent: {}
+[16.597933] (-) TimerEvent: {}
+[16.699713] (-) TimerEvent: {}
+[16.801712] (-) TimerEvent: {}
+[16.903598] (-) TimerEvent: {}
+[17.005189] (-) TimerEvent: {}
+[17.107031] (-) TimerEvent: {}
+[17.208761] (-) TimerEvent: {}
+[17.310480] (-) TimerEvent: {}
+[17.412024] (-) TimerEvent: {}
+[17.514195] (-) TimerEvent: {}
+[17.616068] (-) TimerEvent: {}
+[17.718053] (-) TimerEvent: {}
+[17.819927] (-) TimerEvent: {}
+[17.921478] (-) TimerEvent: {}
+[18.023341] (-) TimerEvent: {}
+[18.124978] (-) TimerEvent: {}
+[18.226647] (-) TimerEvent: {}
+[18.328541] (-) TimerEvent: {}
+[18.430037] (-) TimerEvent: {}
+[18.531752] (-) TimerEvent: {}
+[18.633542] (-) TimerEvent: {}
+[18.735210] (-) TimerEvent: {}
+[18.836785] (-) TimerEvent: {}
+[18.938602] (-) TimerEvent: {}
+[19.040147] (-) TimerEvent: {}
+[19.141970] (-) TimerEvent: {}
+[19.243776] (-) TimerEvent: {}
+[19.345348] (-) TimerEvent: {}
+[19.446610] (-) TimerEvent: {}
+[19.547433] (-) TimerEvent: {}
+[19.648947] (-) TimerEvent: {}
+[19.750567] (-) TimerEvent: {}
+[19.851847] (-) TimerEvent: {}
+[19.952514] (-) TimerEvent: {}
+[20.053156] (-) TimerEvent: {}
+[20.153841] (-) TimerEvent: {}
+[20.254875] (-) TimerEvent: {}
+[20.356751] (-) TimerEvent: {}
+[20.458393] (-) TimerEvent: {}
+[20.559927] (-) TimerEvent: {}
+[20.660887] (-) TimerEvent: {}
+[20.763720] (-) TimerEvent: {}
+[20.865619] (-) TimerEvent: {}
+[20.967182] (-) TimerEvent: {}
+[21.068433] (-) TimerEvent: {}
+[21.169880] (-) TimerEvent: {}
+[21.271657] (-) TimerEvent: {}
+[21.373670] (-) TimerEvent: {}
+[21.475978] (-) TimerEvent: {}
+[21.577688] (-) TimerEvent: {}
+[21.678387] (-) TimerEvent: {}
+[21.779516] (-) TimerEvent: {}
+[21.881340] (-) TimerEvent: {}
+[21.982751] (-) TimerEvent: {}
+[22.084101] (-) TimerEvent: {}
+[22.185058] (-) TimerEvent: {}
+[22.286623] (-) TimerEvent: {}
+[22.388321] (-) TimerEvent: {}
+[22.489429] (-) TimerEvent: {}
+[22.590887] (-) TimerEvent: {}
+[22.692640] (-) TimerEvent: {}
+[22.794337] (-) TimerEvent: {}
+[22.895941] (-) TimerEvent: {}
+[22.997822] (-) TimerEvent: {}
+[23.098888] (-) TimerEvent: {}
+[23.200943] (-) TimerEvent: {}
+[23.302227] (-) TimerEvent: {}
+[23.403166] (-) TimerEvent: {}
+[23.505090] (-) TimerEvent: {}
+[23.606739] (-) TimerEvent: {}
+[23.707645] (-) TimerEvent: {}
+[23.809191] (-) TimerEvent: {}
+[23.910526] (-) TimerEvent: {}
+[24.012540] (-) TimerEvent: {}
+[24.114393] (-) TimerEvent: {}
+[24.215983] (-) TimerEvent: {}
+[24.317581] (-) TimerEvent: {}
+[24.419192] (-) TimerEvent: {}
+[24.520799] (-) TimerEvent: {}
+[24.622148] (-) TimerEvent: {}
+[24.722958] (-) TimerEvent: {}
+[24.824378] (-) TimerEvent: {}
+[24.925034] (-) TimerEvent: {}
+[25.026115] (-) TimerEvent: {}
+[25.127688] (-) TimerEvent: {}
+[25.229523] (-) TimerEvent: {}
+[25.331553] (-) TimerEvent: {}
+[25.433086] (-) TimerEvent: {}
+[25.534681] (-) TimerEvent: {}
+[25.636087] (-) TimerEvent: {}
+[25.737146] (-) TimerEvent: {}
+[25.839032] (-) TimerEvent: {}
+[25.940826] (-) TimerEvent: {}
+[26.042456] (-) TimerEvent: {}
+[26.144427] (-) TimerEvent: {}
+[26.245993] (-) TimerEvent: {}
+[26.347688] (-) TimerEvent: {}
+[26.449819] (-) TimerEvent: {}
+[26.550603] (-) TimerEvent: {}
+[26.651661] (-) TimerEvent: {}
+[26.753131] (-) TimerEvent: {}
+[26.853876] (-) TimerEvent: {}
+[26.954873] (-) TimerEvent: {}
+[27.056409] (-) TimerEvent: {}
+[27.157116] (-) TimerEvent: {}
+[27.257885] (-) TimerEvent: {}
+[27.358860] (-) TimerEvent: {}
+[27.460371] (-) TimerEvent: {}
+[27.562072] (-) TimerEvent: {}
+[27.662744] (-) TimerEvent: {}
+[27.763363] (-) TimerEvent: {}
+[27.864020] (-) TimerEvent: {}
+[27.964736] (-) TimerEvent: {}
+[28.065638] (-) TimerEvent: {}
+[28.167600] (-) TimerEvent: {}
+[28.269610] (-) TimerEvent: {}
+[28.371645] (-) TimerEvent: {}
+[28.473662] (-) TimerEvent: {}
+[28.575138] (-) TimerEvent: {}
+[28.676048] (-) TimerEvent: {}
+[28.778077] (-) TimerEvent: {}
+[28.819748] (robot_description) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[28.820617] (robot_description) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[28.821374] (robot_description) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[28.822214] (robot_description) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^\n'}
+[28.822910] (robot_description) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/minidom.py", line 1995, in parseString\n'}
+[28.827448] (robot_description) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[28.828289] (robot_description) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[28.829037] (robot_description) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString\n'}
+[28.830117] (robot_description) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[28.830989] (robot_description) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[28.831976] (robot_description) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString\n'}
+[28.833801] (robot_description) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[28.844048] (robot_description) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 15, column 22\n'}
+[28.846145] (robot_description) StderrLine: {'line': b'\n'}
+[28.852238] (robot_description) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[28.855022] (robot_description) StderrLine: {'line': b'\n'}
+[28.858744] (robot_description) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[28.861471] (robot_description) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[28.867913] (robot_description) StderrLine: {'line': b'    main()\n'}
+[28.871205] (robot_description) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[28.872987] (robot_description) StderrLine: {'line': b'    raise e\n'}
+[28.874554] (robot_description) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[28.875813] (robot_description) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[28.876926] (robot_description) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[28.877685] (robot_description) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[28.878238] (-) TimerEvent: {}
+[28.878828] (robot_description) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[28.880490] (robot_description) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/robot_description/package.xml':\n"}
+[28.881985] (robot_description) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[28.883858] (robot_description) StderrLine: {'line': b'mismatched tag: line 15, column 22\n'}
+[28.978489] (-) TimerEvent: {}
+[29.053615] (robot_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[29.054522] (robot_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[29.055084] (robot_description) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[29.056147] (robot_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[29.056954] (robot_description) StderrLine: {'line': b'  /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/robot_description/package.xml\n'}
+[29.057589] (robot_description) StderrLine: {'line': b'  /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description/ament_cmake_core/package.cmake)\n'}
+[29.058403] (robot_description) StderrLine: {'line': b'  returned error code 1\n'}
+[29.059510] (robot_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[29.061457] (robot_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[29.062936] (robot_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[29.064462] (robot_description) StderrLine: {'line': b'  CMakeLists.txt:28 (ament_lint_auto_find_test_dependencies)\n'}
+[29.065977] (robot_description) StderrLine: {'line': b'\n'}
+[29.067155] (robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[29.079863] (-) TimerEvent: {}
+[29.085698] (robot_description) CommandEnded: {'returncode': 1}
+[29.088336] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 1}
+[29.093449] (-) EventReactorShutdown: {}

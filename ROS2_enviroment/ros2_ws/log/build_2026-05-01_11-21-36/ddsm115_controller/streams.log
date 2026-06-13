@@ -1,0 +1,51 @@
+[5.282s] Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build
+[6.962s] running develop
+[8.215s] Removing /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115-controller.egg-link (link to .)
+[8.422s] Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build
+[8.429s] Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ddsm115_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ddsm115_controller build --build-base /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build install --record /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/install.log --single-version-externally-managed install_data --force
+[9.655s] running egg_info
+[9.755s] writing ../../build/ddsm115_controller/ddsm115_controller.egg-info/PKG-INFO
+[9.756s] writing dependency_links to ../../build/ddsm115_controller/ddsm115_controller.egg-info/dependency_links.txt
+[9.757s] writing entry points to ../../build/ddsm115_controller/ddsm115_controller.egg-info/entry_points.txt
+[9.758s] writing requirements to ../../build/ddsm115_controller/ddsm115_controller.egg-info/requires.txt
+[9.758s] writing top-level names to ../../build/ddsm115_controller/ddsm115_controller.egg-info/top_level.txt
+[9.945s] reading manifest file '../../build/ddsm115_controller/ddsm115_controller.egg-info/SOURCES.txt'
+[9.950s] writing manifest file '../../build/ddsm115_controller/ddsm115_controller.egg-info/SOURCES.txt'
+[9.951s] running build
+[9.951s] running build_py
+[9.952s] creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build
+[9.953s] creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib
+[9.954s] creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller
+[9.955s] copying ddsm115_controller/set_motor_id.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller
+[9.956s] copying ddsm115_controller/__init__.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller
+[9.957s] copying ddsm115_controller/check_motor_id.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller
+[9.958s] copying ddsm115_controller/two_wheels_robot.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller
+[9.959s] copying ddsm115_controller/ddsm115.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller
+[9.961s] copying ddsm115_controller/velocity_control.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller
+[9.963s] running install
+[9.989s] running install_lib
+[10.081s] creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller
+[10.082s] copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller/set_motor_id.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller
+[10.083s] copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller/__init__.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller
+[10.084s] copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller/check_motor_id.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller
+[10.085s] copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller/two_wheels_robot.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller
+[10.086s] copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller/ddsm115.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller
+[10.087s] copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build/lib/ddsm115_controller/velocity_control.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller
+[10.089s] byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller/set_motor_id.py to set_motor_id.cpython-312.pyc
+[10.092s] byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller/__init__.py to __init__.cpython-312.pyc
+[10.094s] byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller/check_motor_id.py to check_motor_id.cpython-312.pyc
+[10.097s] byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller/two_wheels_robot.py to two_wheels_robot.cpython-312.pyc
+[10.108s] byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller/ddsm115.py to ddsm115.cpython-312.pyc
+[10.114s] byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller/velocity_control.py to velocity_control.cpython-312.pyc
+[10.120s] running install_data
+[10.121s] copying resource/ddsm115_controller -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ament_index/resource_index/packages
+[10.122s] copying package.xml -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/share/ddsm115_controller
+[10.123s] running install_egg_info
+[10.221s] Copying ../../build/ddsm115_controller/ddsm115_controller.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller-0.0.0-py3.12.egg-info
+[10.229s] running install_scripts
+[10.910s] Installing check_motor_id script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller
+[10.911s] Installing set_motor_id script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller
+[10.912s] Installing two_wheels_robot script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller
+[10.913s] Installing velocity_control script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller
+[10.916s] writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/install.log'
+[11.062s] Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ddsm115_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ddsm115_controller build --build-base /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build install --record /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/install.log --single-version-externally-managed install_data --force

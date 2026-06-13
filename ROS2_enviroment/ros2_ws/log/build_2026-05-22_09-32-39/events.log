@@ -1,0 +1,1723 @@
+[0.000000] (-) TimerEvent: {}
+[0.005265] (ddsm115_controller) JobQueued: {'identifier': 'ddsm115_controller', 'dependencies': OrderedDict()}
+[0.007218] (keyboard_control) JobQueued: {'identifier': 'keyboard_control', 'dependencies': OrderedDict()}
+[0.009122] (pointcloud_to_laserscan) JobQueued: {'identifier': 'pointcloud_to_laserscan', 'dependencies': OrderedDict()}
+[0.013099] (ros2_laser_scan_merger) JobQueued: {'identifier': 'ros2_laser_scan_merger', 'dependencies': OrderedDict()}
+[0.013658] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.014130] (ddsm115_controller) JobStarted: {'identifier': 'ddsm115_controller'}
+[0.056071] (keyboard_control) JobStarted: {'identifier': 'keyboard_control'}
+[0.085741] (pointcloud_to_laserscan) JobStarted: {'identifier': 'pointcloud_to_laserscan'}
+[0.097937] (-) TimerEvent: {}
+[0.110642] (ros2_laser_scan_merger) JobStarted: {'identifier': 'ros2_laser_scan_merger'}
+[0.198096] (-) TimerEvent: {}
+[0.298853] (-) TimerEvent: {}
+[0.399777] (-) TimerEvent: {}
+[0.500617] (-) TimerEvent: {}
+[0.602059] (-) TimerEvent: {}
+[0.702843] (-) TimerEvent: {}
+[0.803756] (-) TimerEvent: {}
+[0.904528] (-) TimerEvent: {}
+[1.005428] (-) TimerEvent: {}
+[1.106726] (-) TimerEvent: {}
+[1.208303] (-) TimerEvent: {}
+[1.309102] (-) TimerEvent: {}
+[1.409991] (-) TimerEvent: {}
+[1.511149] (-) TimerEvent: {}
+[1.612497] (-) TimerEvent: {}
+[1.713439] (-) TimerEvent: {}
+[1.814277] (-) TimerEvent: {}
+[1.915047] (-) TimerEvent: {}
+[2.015976] (-) TimerEvent: {}
+[2.116812] (-) TimerEvent: {}
+[2.217670] (-) TimerEvent: {}
+[2.318445] (-) TimerEvent: {}
+[2.419181] (-) TimerEvent: {}
+[2.520005] (-) TimerEvent: {}
+[2.620758] (-) TimerEvent: {}
+[2.722693] (-) TimerEvent: {}
+[2.824430] (-) TimerEvent: {}
+[2.843303] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'cmake'}
+[2.847312] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan', '-DCMAKE_INSTALL_PREFIX=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/pointcloud_to_laserscan'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/pointcloud_to_laserscan', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 59352 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-84b0a254-8ee0-4065-8255-de5f31ec1585.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/pointcloud_to_laserscan', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 59352 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.871640] (ros2_laser_scan_merger) JobProgress: {'identifier': 'ros2_laser_scan_merger', 'progress': 'cmake'}
+[2.874818] (ros2_laser_scan_merger) Command: {'cmd': ['/usr/bin/cmake', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ros2_laser_scan_merger', '-DCMAKE_INSTALL_PREFIX=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 59352 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-84b0a254-8ee0-4065-8255-de5f31ec1585.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 59352 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.925260] (-) TimerEvent: {}
+[3.037275] (-) TimerEvent: {}
+[3.144172] (-) TimerEvent: {}
+[3.246077] (-) TimerEvent: {}
+[3.350058] (-) TimerEvent: {}
+[3.451093] (-) TimerEvent: {}
+[3.552096] (-) TimerEvent: {}
+[3.655182] (-) TimerEvent: {}
+[3.757896] (-) TimerEvent: {}
+[3.863536] (-) TimerEvent: {}
+[3.965142] (-) TimerEvent: {}
+[4.068096] (-) TimerEvent: {}
+[4.174063] (-) TimerEvent: {}
+[4.275033] (-) TimerEvent: {}
+[4.355082] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[4.362863] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[4.376075] (-) TimerEvent: {}
+[4.482642] (-) TimerEvent: {}
+[4.585768] (-) TimerEvent: {}
+[4.692218] (-) TimerEvent: {}
+[4.800750] (-) TimerEvent: {}
+[4.903098] (-) TimerEvent: {}
+[5.004240] (-) TimerEvent: {}
+[5.105047] (-) TimerEvent: {}
+[5.209326] (-) TimerEvent: {}
+[5.310264] (-) TimerEvent: {}
+[5.417102] (-) TimerEvent: {}
+[5.518042] (-) TimerEvent: {}
+[5.619166] (-) TimerEvent: {}
+[5.722071] (-) TimerEvent: {}
+[5.726099] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[5.818309] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[5.824864] (-) TimerEvent: {}
+[5.927699] (-) TimerEvent: {}
+[5.946098] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.029118] (-) TimerEvent: {}
+[6.033338] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.130774] (-) TimerEvent: {}
+[6.235498] (-) TimerEvent: {}
+[6.339457] (-) TimerEvent: {}
+[6.442691] (-) TimerEvent: {}
+[6.549996] (-) TimerEvent: {}
+[6.650800] (-) TimerEvent: {}
+[6.754381] (-) TimerEvent: {}
+[6.860083] (-) TimerEvent: {}
+[6.961299] (-) TimerEvent: {}
+[7.024662] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.062996] (-) TimerEvent: {}
+[7.099828] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.100617] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.109074] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.165566] (-) TimerEvent: {}
+[7.208272] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.267637] (-) TimerEvent: {}
+[7.373668] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.374408] (-) TimerEvent: {}
+[7.471047] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.477184] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.477980] (-) TimerEvent: {}
+[7.478502] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.581080] (-) TimerEvent: {}
+[7.591115] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.681269] (-) TimerEvent: {}
+[7.792393] (-) TimerEvent: {}
+[7.894105] (-) TimerEvent: {}
+[7.999090] (-) TimerEvent: {}
+[8.100179] (-) TimerEvent: {}
+[8.205120] (-) TimerEvent: {}
+[8.307522] (-) TimerEvent: {}
+[8.378193] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.409182] (-) TimerEvent: {}
+[8.476729] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.481752] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.487970] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.509892] (-) TimerEvent: {}
+[8.562189] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[8.612570] (-) TimerEvent: {}
+[8.663830] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.714384] (-) TimerEvent: {}
+[8.719779] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.727067] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.733171] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.774151] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[8.817683] (-) TimerEvent: {}
+[8.925084] (-) TimerEvent: {}
+[9.028158] (-) TimerEvent: {}
+[9.107772] (keyboard_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/keyboard_control', 'build', '--build-base', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/build', 'install', '--record', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/keyboard_control', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 59352 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-84b0a254-8ee0-4065-8255-de5f31ec1585.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 59352 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[9.130126] (-) TimerEvent: {}
+[9.237073] (-) TimerEvent: {}
+[9.347169] (-) TimerEvent: {}
+[9.453180] (-) TimerEvent: {}
+[9.571170] (-) TimerEvent: {}
+[9.690211] (-) TimerEvent: {}
+[9.746219] (ddsm115_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ddsm115_controller', 'build', '--build-base', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/build', 'install', '--record', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ddsm115_controller', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 59352 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-84b0a254-8ee0-4065-8255-de5f31ec1585.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 59352 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[9.790360] (-) TimerEvent: {}
+[9.891169] (-) TimerEvent: {}
+[9.993074] (-) TimerEvent: {}
+[10.097468] (-) TimerEvent: {}
+[10.201455] (-) TimerEvent: {}
+[10.305467] (-) TimerEvent: {}
+[10.394744] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[10.407641] (-) TimerEvent: {}
+[10.510062] (-) TimerEvent: {}
+[10.609242] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[10.610191] (-) TimerEvent: {}
+[10.713424] (-) TimerEvent: {}
+[10.817080] (-) TimerEvent: {}
+[10.918089] (-) TimerEvent: {}
+[11.022403] (-) TimerEvent: {}
+[11.123399] (-) TimerEvent: {}
+[11.227115] (-) TimerEvent: {}
+[11.331601] (-) TimerEvent: {}
+[11.438056] (-) TimerEvent: {}
+[11.539890] (-) TimerEvent: {}
+[11.642360] (-) TimerEvent: {}
+[11.746747] (-) TimerEvent: {}
+[11.783477] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found laser_geometry: 2.7.2 (/opt/ros/jazzy/share/laser_geometry/cmake)\n'}
+[11.841067] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[11.848115] (-) TimerEvent: {}
+[11.952015] (-) TimerEvent: {}
+[12.056065] (-) TimerEvent: {}
+[12.161049] (-) TimerEvent: {}
+[12.263035] (-) TimerEvent: {}
+[12.271669] (keyboard_control) StdoutLine: {'line': b'running egg_info\n'}
+[12.354318] (ddsm115_controller) StdoutLine: {'line': b'running egg_info\n'}
+[12.363222] (-) TimerEvent: {}
+[12.422998] (keyboard_control) StdoutLine: {'line': b'writing ../../build/keyboard_control/keyboard_control.egg-info/PKG-INFO\n'}
+[12.431032] (keyboard_control) StdoutLine: {'line': b'writing dependency_links to ../../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt\n'}
+[12.431794] (keyboard_control) StdoutLine: {'line': b'writing entry points to ../../build/keyboard_control/keyboard_control.egg-info/entry_points.txt\n'}
+[12.432454] (keyboard_control) StdoutLine: {'line': b'writing requirements to ../../build/keyboard_control/keyboard_control.egg-info/requires.txt\n'}
+[12.433042] (keyboard_control) StdoutLine: {'line': b'writing top-level names to ../../build/keyboard_control/keyboard_control.egg-info/top_level.txt\n'}
+[12.472066] (-) TimerEvent: {}
+[12.529475] (ddsm115_controller) StdoutLine: {'line': b'writing ../../build/ddsm115_controller/ddsm115_controller.egg-info/PKG-INFO\n'}
+[12.535855] (ddsm115_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/ddsm115_controller/ddsm115_controller.egg-info/dependency_links.txt\n'}
+[12.537721] (ddsm115_controller) StdoutLine: {'line': b'writing entry points to ../../build/ddsm115_controller/ddsm115_controller.egg-info/entry_points.txt\n'}
+[12.538482] (ddsm115_controller) StdoutLine: {'line': b'writing requirements to ../../build/ddsm115_controller/ddsm115_controller.egg-info/requires.txt\n'}
+[12.543583] (ddsm115_controller) StdoutLine: {'line': b'writing top-level names to ../../build/ddsm115_controller/ddsm115_controller.egg-info/top_level.txt\n'}
+[12.574083] (-) TimerEvent: {}
+[12.676042] (-) TimerEvent: {}
+[12.777984] (-) TimerEvent: {}
+[12.835250] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[12.876224] (keyboard_control) StdoutLine: {'line': b"reading manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'\n"}
+[12.881112] (keyboard_control) StdoutLine: {'line': b"writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'\n"}
+[12.882214] (-) TimerEvent: {}
+[12.888065] (keyboard_control) StdoutLine: {'line': b'running build\n'}
+[12.890855] (keyboard_control) StdoutLine: {'line': b'running build_py\n'}
+[12.891580] (keyboard_control) StdoutLine: {'line': b'running install\n'}
+[12.911673] (keyboard_control) StdoutLine: {'line': b'running install_lib\n'}
+[12.960561] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[12.982404] (-) TimerEvent: {}
+[13.030086] (ddsm115_controller) StdoutLine: {'line': b"reading manifest file '../../build/ddsm115_controller/ddsm115_controller.egg-info/SOURCES.txt'\n"}
+[13.037745] (ddsm115_controller) StdoutLine: {'line': b"writing manifest file '../../build/ddsm115_controller/ddsm115_controller.egg-info/SOURCES.txt'\n"}
+[13.040420] (ddsm115_controller) StdoutLine: {'line': b'running build\n'}
+[13.046078] (ddsm115_controller) StdoutLine: {'line': b'running build_py\n'}
+[13.049616] (ddsm115_controller) StdoutLine: {'line': b'running install\n'}
+[13.081155] (keyboard_control) StdoutLine: {'line': b'running install_data\n'}
+[13.085818] (-) TimerEvent: {}
+[13.087436] (keyboard_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.130108] (ddsm115_controller) StdoutLine: {'line': b'running install_lib\n'}
+[13.131190] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[13.153060] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[13.186056] (-) TimerEvent: {}
+[13.251119] (keyboard_control) StdoutLine: {'line': b"removing '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[13.251884] (keyboard_control) StdoutLine: {'line': b'Copying ../../build/keyboard_control/keyboard_control.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control-0.0.0-py3.12.egg-info\n'}
+[13.267124] (keyboard_control) StdoutLine: {'line': b'running install_scripts\n'}
+[13.286235] (-) TimerEvent: {}
+[13.389108] (-) TimerEvent: {}
+[13.417089] (ddsm115_controller) StdoutLine: {'line': b'running install_data\n'}
+[13.417897] (ddsm115_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.459161] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.462697] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.489322] (-) TimerEvent: {}
+[13.593511] (-) TimerEvent: {}
+[13.694494] (-) TimerEvent: {}
+[13.703663] (ddsm115_controller) StdoutLine: {'line': b"removing '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[13.708562] (ddsm115_controller) StdoutLine: {'line': b'Copying ../../build/ddsm115_controller/ddsm115_controller.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages/ddsm115_controller-0.0.0-py3.12.egg-info\n'}
+[13.718212] (ddsm115_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[13.779061] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.779898] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.801447] (-) TimerEvent: {}
+[13.905138] (-) TimerEvent: {}
+[14.011669] (-) TimerEvent: {}
+[14.113608] (-) TimerEvent: {}
+[14.216059] (-) TimerEvent: {}
+[14.319062] (-) TimerEvent: {}
+[14.374586] (keyboard_control) StdoutLine: {'line': b'Installing one_motor_test script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/keyboard_control\n'}
+[14.379759] (keyboard_control) StdoutLine: {'line': b"writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control/install.log'\n"}
+[14.424178] (-) TimerEvent: {}
+[14.525890] (-) TimerEvent: {}
+[14.576777] (keyboard_control) CommandEnded: {'returncode': 0}
+[14.627738] (-) TimerEvent: {}
+[14.669268] (keyboard_control) JobEnded: {'identifier': 'keyboard_control', 'rc': 0}
+[14.677377] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[14.728721] (-) TimerEvent: {}
+[14.736334] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[14.752430] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[14.762105] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 59352 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-84b0a254-8ee0-4065-8255-de5f31ec1585.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 59352 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.830963] (-) TimerEvent: {}
+[14.936417] (-) TimerEvent: {}
+[15.038237] (-) TimerEvent: {}
+[15.049010] (ddsm115_controller) StdoutLine: {'line': b'Installing check_motor_id script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller\n'}
+[15.084702] (ddsm115_controller) StdoutLine: {'line': b'Installing set_motor_id script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller\n'}
+[15.086934] (ddsm115_controller) StdoutLine: {'line': b'Installing two_wheels_robot script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller\n'}
+[15.087861] (ddsm115_controller) StdoutLine: {'line': b'Installing velocity_control script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/ddsm115_controller\n'}
+[15.090682] (ddsm115_controller) StdoutLine: {'line': b"writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ddsm115_controller/install.log'\n"}
+[15.138573] (-) TimerEvent: {}
+[15.241699] (-) TimerEvent: {}
+[15.266080] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[15.283304] (ddsm115_controller) CommandEnded: {'returncode': 0}
+[15.288793] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[15.341965] (-) TimerEvent: {}
+[15.442707] (-) TimerEvent: {}
+[15.450094] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[15.542870] (-) TimerEvent: {}
+[15.636472] (ddsm115_controller) JobEnded: {'identifier': 'ddsm115_controller', 'rc': 0}
+[15.641070] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[15.644176] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[15.644360] (-) TimerEvent: {}
+[15.666140] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[15.699064] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 59352 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-84b0a254-8ee0-4065-8255-de5f31ec1585.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/sllidar_ros2', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 59352 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[15.744581] (-) TimerEvent: {}
+[15.748278] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.749162] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch\n'}
+[15.749827] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[15.751018] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[15.751960] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[15.753316] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[15.754415] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[15.755806] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[15.756897] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[15.758082] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__\n'}
+[15.758995] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_c1_launch.cpython-312.pyc\n'}
+[15.759729] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[15.760731] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[15.761316] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[15.761684] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[15.762091] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[15.762557] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[15.762946] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[15.764161] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[15.764697] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[15.765371] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[15.765945] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[15.766472] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[15.767706] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[15.769292] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[15.770306] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[15.771575] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[15.772405] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[15.772966] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_dual_launch.py\n'}
+[15.773647] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz\n'}
+[15.775010] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[15.776246] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[15.777030] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found message_filters: 4.11.12 (/opt/ros/jazzy/share/message_filters/cmake)\n'}
+[15.777775] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[15.778459] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[15.779037] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[15.779758] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[15.780368] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[15.781073] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[15.781741] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[15.782306] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[15.782989] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[15.783655] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[15.784224] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[15.784720] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[15.795199] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[15.796045] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.799996] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.802518] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[15.803464] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[15.804068] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[15.804675] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[15.845054] (-) TimerEvent: {}
+[15.870348] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[15.946739] (-) TimerEvent: {}
+[16.047809] (-) TimerEvent: {}
+[16.148544] (-) TimerEvent: {}
+[16.185641] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[16.217329] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[16.248742] (-) TimerEvent: {}
+[16.349468] (-) TimerEvent: {}
+[16.450308] (-) TimerEvent: {}
+[16.551277] (-) TimerEvent: {}
+[16.624098] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[16.651513] (-) TimerEvent: {}
+[16.752391] (-) TimerEvent: {}
+[16.779438] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[16.822073] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[16.852590] (-) TimerEvent: {}
+[16.896293] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[16.925312] (ros2_laser_scan_merger) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.953063] (-) TimerEvent: {}
+[17.026017] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.053263] (-) TimerEvent: {}
+[17.154651] (-) TimerEvent: {}
+[17.259082] (-) TimerEvent: {}
+[17.362421] (-) TimerEvent: {}
+[17.463757] (-) TimerEvent: {}
+[17.488223] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[17.520209] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[17.563999] (-) TimerEvent: {}
+[17.668448] (-) TimerEvent: {}
+[17.769072] (-) TimerEvent: {}
+[17.817749] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found pcl_conversions: 2.6.4 (/opt/ros/jazzy/share/pcl_conversions/cmake)\n'}
+[17.872100] (-) TimerEvent: {}
+[17.972854] (-) TimerEvent: {}
+[17.984265] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[18.073067] (-) TimerEvent: {}
+[18.173786] (-) TimerEvent: {}
+[18.320228] (-) TimerEvent: {}
+[18.421075] (-) TimerEvent: {}
+[18.522067] (-) TimerEvent: {}
+[18.623029] (-) TimerEvent: {}
+[18.727590] (-) TimerEvent: {}
+[18.757796] (ros2_laser_scan_merger) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[18.759157] (ros2_laser_scan_merger) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[18.759779] (ros2_laser_scan_merger) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[18.760320] (ros2_laser_scan_merger) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[18.760796] (ros2_laser_scan_merger) StderrLine: {'line': b'\n'}
+[18.763581] (ros2_laser_scan_merger) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[18.767123] (ros2_laser_scan_merger) StderrLine: {'line': b'\n'}
+[18.768284] (ros2_laser_scan_merger) StderrLine: {'line': b'    /usr\n'}
+[18.768777] (ros2_laser_scan_merger) StderrLine: {'line': b'\n'}
+[18.769385] (ros2_laser_scan_merger) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[18.772028] (ros2_laser_scan_merger) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[18.773176] (ros2_laser_scan_merger) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[18.773831] (ros2_laser_scan_merger) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[18.774591] (ros2_laser_scan_merger) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[18.777393] (ros2_laser_scan_merger) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[18.778403] (ros2_laser_scan_merger) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[18.778896] (ros2_laser_scan_merger) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[18.782099] (ros2_laser_scan_merger) StderrLine: {'line': b'  CMakeLists.txt:23 (find_package)\n'}
+[18.782633] (ros2_laser_scan_merger) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[18.783133] (ros2_laser_scan_merger) StderrLine: {'line': b'\x1b[0m\n'}
+[18.783572] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[18.827769] (-) TimerEvent: {}
+[18.833083] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)\n'}
+[18.891664] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[18.928181] (-) TimerEvent: {}
+[19.033391] (-) TimerEvent: {}
+[19.135690] (-) TimerEvent: {}
+[19.236731] (-) TimerEvent: {}
+[19.337609] (-) TimerEvent: {}
+[19.439320] (-) TimerEvent: {}
+[19.542410] (-) TimerEvent: {}
+[19.643756] (-) TimerEvent: {}
+[19.745429] (-) TimerEvent: {}
+[19.781037] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[19.782679] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/include>\n'}
+[19.785227] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[19.837123] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[19.838002] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[19.845603] (-) TimerEvent: {}
+[19.847339] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[19.848500] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[19.864207] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[19.874825] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[19.927965] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[19.936176] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[19.944439] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[19.945779] (-) TimerEvent: {}
+[19.968334] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configuring done (17.1s)\n'}
+[20.055782] (-) TimerEvent: {}
+[20.159169] (-) TimerEvent: {}
+[20.216009] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[20.261095] (-) TimerEvent: {}
+[20.272929] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Build files have been written to: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/pointcloud_to_laserscan\n'}
+[20.338150] (pointcloud_to_laserscan) CommandEnded: {'returncode': 0}
+[20.340705] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'build'}
+[20.340854] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/pointcloud_to_laserscan', '--', '-j4', '-l4'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/pointcloud_to_laserscan', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 59352 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-84b0a254-8ee0-4065-8255-de5f31ec1585.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/pointcloud_to_laserscan', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 59352 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[20.363116] (-) TimerEvent: {}
+[20.464049] (-) TimerEvent: {}
+[20.566362] (-) TimerEvent: {}
+[20.668122] (-) TimerEvent: {}
+[20.770548] (-) TimerEvent: {}
+[20.798087] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o\x1b[0m\n'}
+[20.842494] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o\x1b[0m\n'}
+[20.858673] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o\x1b[0m\n'}
+[20.871113] (-) TimerEvent: {}
+[20.902677] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o\x1b[0m\n'}
+[20.976083] (-) TimerEvent: {}
+[21.079108] (-) TimerEvent: {}
+[21.179979] (-) TimerEvent: {}
+[21.274333] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[21.282947] (-) TimerEvent: {}
+[21.285001] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[21.385058] (-) TimerEvent: {}
+[21.490116] (-) TimerEvent: {}
+[21.597082] (-) TimerEvent: {}
+[21.698124] (-) TimerEvent: {}
+[21.802552] (-) TimerEvent: {}
+[21.907227] (-) TimerEvent: {}
+[22.012171] (-) TimerEvent: {}
+[22.130054] (-) TimerEvent: {}
+[22.235143] (-) TimerEvent: {}
+[22.336322] (-) TimerEvent: {}
+[22.442168] (-) TimerEvent: {}
+[22.544253] (-) TimerEvent: {}
+[22.649182] (-) TimerEvent: {}
+[22.753101] (-) TimerEvent: {}
+[22.854012] (-) TimerEvent: {}
+[22.956211] (-) TimerEvent: {}
+[23.058826] (-) TimerEvent: {}
+[23.160034] (-) TimerEvent: {}
+[23.272069] (-) TimerEvent: {}
+[23.372766] (-) TimerEvent: {}
+[23.473794] (-) TimerEvent: {}
+[23.592069] (-) TimerEvent: {}
+[23.692803] (-) TimerEvent: {}
+[23.804078] (-) TimerEvent: {}
+[23.906537] (-) TimerEvent: {}
+[24.009262] (-) TimerEvent: {}
+[24.113786] (-) TimerEvent: {}
+[24.214688] (-) TimerEvent: {}
+[24.318134] (-) TimerEvent: {}
+[24.422840] (-) TimerEvent: {}
+[24.527298] (-) TimerEvent: {}
+[24.633359] (-) TimerEvent: {}
+[24.736074] (-) TimerEvent: {}
+[24.838126] (-) TimerEvent: {}
+[24.943385] (-) TimerEvent: {}
+[25.053102] (-) TimerEvent: {}
+[25.153998] (-) TimerEvent: {}
+[25.262051] (-) TimerEvent: {}
+[25.362880] (-) TimerEvent: {}
+[25.463802] (-) TimerEvent: {}
+[25.569660] (-) TimerEvent: {}
+[25.671588] (-) TimerEvent: {}
+[25.775281] (-) TimerEvent: {}
+[25.881432] (-) TimerEvent: {}
+[25.986207] (-) TimerEvent: {}
+[26.093145] (-) TimerEvent: {}
+[26.194426] (-) TimerEvent: {}
+[26.298652] (-) TimerEvent: {}
+[26.402161] (-) TimerEvent: {}
+[26.506565] (-) TimerEvent: {}
+[26.614132] (-) TimerEvent: {}
+[26.718124] (-) TimerEvent: {}
+[26.821178] (-) TimerEvent: {}
+[26.923373] (-) TimerEvent: {}
+[27.025371] (-) TimerEvent: {}
+[27.131087] (-) TimerEvent: {}
+[27.232370] (-) TimerEvent: {}
+[27.336132] (-) TimerEvent: {}
+[27.437155] (-) TimerEvent: {}
+[27.541382] (-) TimerEvent: {}
+[27.644404] (-) TimerEvent: {}
+[27.745661] (-) TimerEvent: {}
+[27.849115] (-) TimerEvent: {}
+[27.953113] (-) TimerEvent: {}
+[28.055194] (-) TimerEvent: {}
+[28.163027] (-) TimerEvent: {}
+[28.266466] (-) TimerEvent: {}
+[28.370508] (-) TimerEvent: {}
+[28.471410] (-) TimerEvent: {}
+[28.572343] (-) TimerEvent: {}
+[28.678163] (-) TimerEvent: {}
+[28.779104] (-) TimerEvent: {}
+[28.883176] (-) TimerEvent: {}
+[28.986144] (-) TimerEvent: {}
+[29.088384] (-) TimerEvent: {}
+[29.195137] (-) TimerEvent: {}
+[29.296072] (-) TimerEvent: {}
+[29.399120] (-) TimerEvent: {}
+[29.501184] (-) TimerEvent: {}
+[29.609086] (-) TimerEvent: {}
+[29.710127] (-) TimerEvent: {}
+[29.811492] (-) TimerEvent: {}
+[29.921209] (-) TimerEvent: {}
+[30.025107] (-) TimerEvent: {}
+[30.126123] (-) TimerEvent: {}
+[30.231170] (-) TimerEvent: {}
+[30.333098] (-) TimerEvent: {}
+[30.440144] (-) TimerEvent: {}
+[30.541428] (-) TimerEvent: {}
+[30.646120] (-) TimerEvent: {}
+[30.748375] (-) TimerEvent: {}
+[30.853845] (-) TimerEvent: {}
+[30.957118] (-) TimerEvent: {}
+[31.060411] (-) TimerEvent: {}
+[31.161426] (-) TimerEvent: {}
+[31.264245] (-) TimerEvent: {}
+[31.365465] (-) TimerEvent: {}
+[31.467800] (-) TimerEvent: {}
+[31.571166] (-) TimerEvent: {}
+[31.672236] (-) TimerEvent: {}
+[31.776120] (-) TimerEvent: {}
+[31.877077] (-) TimerEvent: {}
+[31.977964] (-) TimerEvent: {}
+[32.078968] (-) TimerEvent: {}
+[32.182116] (-) TimerEvent: {}
+[32.283276] (-) TimerEvent: {}
+[32.387110] (-) TimerEvent: {}
+[32.488000] (-) TimerEvent: {}
+[32.589315] (-) TimerEvent: {}
+[32.692106] (-) TimerEvent: {}
+[32.793118] (-) TimerEvent: {}
+[32.897479] (-) TimerEvent: {}
+[32.998714] (-) TimerEvent: {}
+[33.105212] (-) TimerEvent: {}
+[33.208159] (-) TimerEvent: {}
+[33.313259] (-) TimerEvent: {}
+[33.414394] (-) TimerEvent: {}
+[33.518164] (-) TimerEvent: {}
+[33.621153] (-) TimerEvent: {}
+[33.724127] (-) TimerEvent: {}
+[33.828156] (-) TimerEvent: {}
+[33.929389] (-) TimerEvent: {}
+[34.034500] (-) TimerEvent: {}
+[34.136820] (-) TimerEvent: {}
+[34.240279] (-) TimerEvent: {}
+[34.343104] (-) TimerEvent: {}
+[34.444077] (-) TimerEvent: {}
+[34.547115] (-) TimerEvent: {}
+[34.650850] (-) TimerEvent: {}
+[34.752185] (-) TimerEvent: {}
+[34.855345] (-) TimerEvent: {}
+[34.959425] (-) TimerEvent: {}
+[35.062130] (-) TimerEvent: {}
+[35.163234] (-) TimerEvent: {}
+[35.266801] (-) TimerEvent: {}
+[35.367757] (-) TimerEvent: {}
+[35.471102] (-) TimerEvent: {}
+[35.572069] (-) TimerEvent: {}
+[35.675195] (-) TimerEvent: {}
+[35.776097] (-) TimerEvent: {}
+[35.876974] (-) TimerEvent: {}
+[35.979101] (-) TimerEvent: {}
+[36.083739] (-) TimerEvent: {}
+[36.187998] (-) TimerEvent: {}
+[36.292121] (-) TimerEvent: {}
+[36.393088] (-) TimerEvent: {}
+[36.496132] (-) TimerEvent: {}
+[36.598158] (-) TimerEvent: {}
+[36.704134] (-) TimerEvent: {}
+[36.805004] (-) TimerEvent: {}
+[36.905955] (-) TimerEvent: {}
+[37.009139] (-) TimerEvent: {}
+[37.113179] (-) TimerEvent: {}
+[37.214149] (-) TimerEvent: {}
+[37.315659] (-) TimerEvent: {}
+[37.425054] (-) TimerEvent: {}
+[37.526115] (-) TimerEvent: {}
+[37.628123] (-) TimerEvent: {}
+[37.731164] (-) TimerEvent: {}
+[37.838118] (-) TimerEvent: {}
+[37.943259] (-) TimerEvent: {}
+[38.053598] (-) TimerEvent: {}
+[38.158152] (-) TimerEvent: {}
+[38.269521] (-) TimerEvent: {}
+[38.372126] (-) TimerEvent: {}
+[38.473104] (-) TimerEvent: {}
+[38.577089] (-) TimerEvent: {}
+[38.687713] (-) TimerEvent: {}
+[38.797089] (-) TimerEvent: {}
+[38.900092] (-) TimerEvent: {}
+[39.002167] (-) TimerEvent: {}
+[39.103348] (-) TimerEvent: {}
+[39.209838] (-) TimerEvent: {}
+[39.312452] (-) TimerEvent: {}
+[39.417271] (-) TimerEvent: {}
+[39.521133] (-) TimerEvent: {}
+[39.622262] (-) TimerEvent: {}
+[39.727408] (-) TimerEvent: {}
+[39.832701] (-) TimerEvent: {}
+[39.934048] (-) TimerEvent: {}
+[40.038378] (-) TimerEvent: {}
+[40.148245] (-) TimerEvent: {}
+[40.267345] (-) TimerEvent: {}
+[40.370165] (-) TimerEvent: {}
+[40.474132] (-) TimerEvent: {}
+[40.501487] (ros2_laser_scan_merger) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[40.576134] (-) TimerEvent: {}
+[40.617659] (ros2_laser_scan_merger) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[40.679189] (-) TimerEvent: {}
+[40.780281] (-) TimerEvent: {}
+[40.882195] (-) TimerEvent: {}
+[40.909302] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  \n'}
+[40.922693] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[40.985137] (-) TimerEvent: {}
+[41.087091] (-) TimerEvent: {}
+[41.190111] (-) TimerEvent: {}
+[41.293362] (-) TimerEvent: {}
+[41.400711] (-) TimerEvent: {}
+[41.501738] (-) TimerEvent: {}
+[41.605278] (-) TimerEvent: {}
+[41.664551] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[41.708967] (-) TimerEvent: {}
+[41.715071] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[41.785083] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.3")  \n'}
+[41.810103] (-) TimerEvent: {}
+[41.867045] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[41.916120] (-) TimerEvent: {}
+[42.017822] (-) TimerEvent: {}
+[42.124113] (-) TimerEvent: {}
+[42.227102] (-) TimerEvent: {}
+[42.341821] (-) TimerEvent: {}
+[42.445314] (-) TimerEvent: {}
+[42.552170] (-) TimerEvent: {}
+[42.660139] (-) TimerEvent: {}
+[42.764619] (-) TimerEvent: {}
+[42.873476] (-) TimerEvent: {}
+[42.989132] (-) TimerEvent: {}
+[43.090344] (-) TimerEvent: {}
+[43.196721] (-) TimerEvent: {}
+[43.299211] (-) TimerEvent: {}
+[43.403172] (-) TimerEvent: {}
+[43.509164] (-) TimerEvent: {}
+[43.610435] (-) TimerEvent: {}
+[43.718128] (-) TimerEvent: {}
+[43.822536] (-) TimerEvent: {}
+[43.927038] (-) TimerEvent: {}
+[44.036892] (-) TimerEvent: {}
+[44.144668] (-) TimerEvent: {}
+[44.256136] (-) TimerEvent: {}
+[44.362006] (-) TimerEvent: {}
+[44.475149] (-) TimerEvent: {}
+[44.583744] (-) TimerEvent: {}
+[44.693184] (-) TimerEvent: {}
+[44.818541] (-) TimerEvent: {}
+[44.925466] (-) TimerEvent: {}
+[45.042109] (-) TimerEvent: {}
+[45.156528] (-) TimerEvent: {}
+[45.263117] (-) TimerEvent: {}
+[45.370784] (-) TimerEvent: {}
+[45.480874] (-) TimerEvent: {}
+[45.585502] (-) TimerEvent: {}
+[45.692118] (-) TimerEvent: {}
+[45.797534] (-) TimerEvent: {}
+[45.904132] (-) TimerEvent: {}
+[46.009185] (-) TimerEvent: {}
+[46.111137] (-) TimerEvent: {}
+[46.116615] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[46.157224] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[46.216066] (-) TimerEvent: {}
+[46.321154] (-) TimerEvent: {}
+[46.426795] (-) TimerEvent: {}
+[46.531117] (-) TimerEvent: {}
+[46.635794] (-) TimerEvent: {}
+[46.746179] (-) TimerEvent: {}
+[46.850349] (-) TimerEvent: {}
+[46.956187] (-) TimerEvent: {}
+[47.063439] (-) TimerEvent: {}
+[47.171634] (-) TimerEvent: {}
+[47.277729] (-) TimerEvent: {}
+[47.398535] (-) TimerEvent: {}
+[47.503324] (-) TimerEvent: {}
+[47.608192] (-) TimerEvent: {}
+[47.711129] (-) TimerEvent: {}
+[47.814519] (-) TimerEvent: {}
+[47.922101] (-) TimerEvent: {}
+[48.023092] (-) TimerEvent: {}
+[48.124574] (-) TimerEvent: {}
+[48.230057] (-) TimerEvent: {}
+[48.332092] (-) TimerEvent: {}
+[48.433045] (-) TimerEvent: {}
+[48.535938] (-) TimerEvent: {}
+[48.638361] (-) TimerEvent: {}
+[48.744128] (-) TimerEvent: {}
+[48.846071] (-) TimerEvent: {}
+[48.949346] (-) TimerEvent: {}
+[49.052514] (-) TimerEvent: {}
+[49.156159] (-) TimerEvent: {}
+[49.258404] (-) TimerEvent: {}
+[49.368733] (-) TimerEvent: {}
+[49.470213] (-) TimerEvent: {}
+[49.576276] (-) TimerEvent: {}
+[49.679128] (-) TimerEvent: {}
+[49.783556] (-) TimerEvent: {}
+[49.950487] (-) TimerEvent: {}
+[50.054231] (-) TimerEvent: {}
+[50.159167] (-) TimerEvent: {}
+[50.266156] (-) TimerEvent: {}
+[50.368181] (-) TimerEvent: {}
+[50.472134] (-) TimerEvent: {}
+[50.575201] (-) TimerEvent: {}
+[50.679096] (-) TimerEvent: {}
+[50.781074] (-) TimerEvent: {}
+[50.885114] (-) TimerEvent: {}
+[50.986234] (-) TimerEvent: {}
+[51.089868] (-) TimerEvent: {}
+[51.201871] (-) TimerEvent: {}
+[51.304123] (-) TimerEvent: {}
+[51.409491] (-) TimerEvent: {}
+[51.512094] (-) TimerEvent: {}
+[51.613076] (-) TimerEvent: {}
+[51.716877] (-) TimerEvent: {}
+[51.818501] (-) TimerEvent: {}
+[51.921620] (-) TimerEvent: {}
+[51.977822] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[52.027122] (-) TimerEvent: {}
+[52.130949] (-) TimerEvent: {}
+[52.234882] (-) TimerEvent: {}
+[52.337082] (-) TimerEvent: {}
+[52.440064] (-) TimerEvent: {}
+[52.541350] (-) TimerEvent: {}
+[52.642616] (-) TimerEvent: {}
+[52.744711] (-) TimerEvent: {}
+[52.845664] (-) TimerEvent: {}
+[52.949150] (-) TimerEvent: {}
+[53.053151] (-) TimerEvent: {}
+[53.163622] (-) TimerEvent: {}
+[53.266540] (-) TimerEvent: {}
+[53.368432] (-) TimerEvent: {}
+[53.476481] (-) TimerEvent: {}
+[53.578880] (-) TimerEvent: {}
+[53.691100] (-) TimerEvent: {}
+[53.793292] (-) TimerEvent: {}
+[53.897886] (-) TimerEvent: {}
+[54.001096] (-) TimerEvent: {}
+[54.104144] (-) TimerEvent: {}
+[54.207097] (-) TimerEvent: {}
+[54.310138] (-) TimerEvent: {}
+[54.414102] (-) TimerEvent: {}
+[54.518619] (-) TimerEvent: {}
+[54.626150] (-) TimerEvent: {}
+[54.728558] (-) TimerEvent: {}
+[54.840135] (-) TimerEvent: {}
+[54.954633] (-) TimerEvent: {}
+[55.057121] (-) TimerEvent: {}
+[55.158308] (-) TimerEvent: {}
+[55.260242] (-) TimerEvent: {}
+[55.362846] (-) TimerEvent: {}
+[55.468047] (-) TimerEvent: {}
+[55.574284] (-) TimerEvent: {}
+[55.675373] (-) TimerEvent: {}
+[55.782390] (-) TimerEvent: {}
+[55.885268] (-) TimerEvent: {}
+[55.990095] (-) TimerEvent: {}
+[56.091706] (-) TimerEvent: {}
+[56.131094] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable laserscan_to_pointcloud_node\x1b[0m\n'}
+[56.194090] (-) TimerEvent: {}
+[56.295068] (-) TimerEvent: {}
+[56.400528] (-) TimerEvent: {}
+[56.503137] (-) TimerEvent: {}
+[56.608851] (-) TimerEvent: {}
+[56.713512] (-) TimerEvent: {}
+[56.817592] (-) TimerEvent: {}
+[56.921159] (-) TimerEvent: {}
+[57.022789] (-) TimerEvent: {}
+[57.126783] (-) TimerEvent: {}
+[57.235228] (-) TimerEvent: {}
+[57.345411] (-) TimerEvent: {}
+[57.446317] (-) TimerEvent: {}
+[57.547268] (-) TimerEvent: {}
+[57.650103] (-) TimerEvent: {}
+[57.716143] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 50%] Built target laserscan_to_pointcloud_node\n'}
+[57.750387] (-) TimerEvent: {}
+[57.816376] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[57.853112] (-) TimerEvent: {}
+[57.956221] (-) TimerEvent: {}
+[58.057192] (-) TimerEvent: {}
+[58.160116] (-) TimerEvent: {}
+[58.262135] (-) TimerEvent: {}
+[58.363142] (-) TimerEvent: {}
+[58.467035] (-) TimerEvent: {}
+[58.570487] (-) TimerEvent: {}
+[58.674148] (-) TimerEvent: {}
+[58.775227] (-) TimerEvent: {}
+[58.877479] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable pointcloud_to_laserscan_node\x1b[0m\n'}
+[58.878488] (-) TimerEvent: {}
+[58.984130] (-) TimerEvent: {}
+[59.085087] (-) TimerEvent: {}
+[59.189144] (-) TimerEvent: {}
+[59.290126] (-) TimerEvent: {}
+[59.393512] (-) TimerEvent: {}
+[59.496170] (-) TimerEvent: {}
+[59.600857] (-) TimerEvent: {}
+[59.704108] (-) TimerEvent: {}
+[59.806069] (-) TimerEvent: {}
+[59.910116] (-) TimerEvent: {}
+[60.018122] (-) TimerEvent: {}
+[60.122385] (-) TimerEvent: {}
+[60.226346] (-) TimerEvent: {}
+[60.330417] (-) TimerEvent: {}
+[60.375170] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 60%] Built target pointcloud_to_laserscan_node\n'}
+[60.430698] (-) TimerEvent: {}
+[60.533578] (-) TimerEvent: {}
+[60.673129] (-) TimerEvent: {}
+[60.792090] (-) TimerEvent: {}
+[60.900109] (-) TimerEvent: {}
+[61.000892] (-) TimerEvent: {}
+[61.101781] (-) TimerEvent: {}
+[61.204073] (-) TimerEvent: {}
+[61.276158] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  \n'}
+[61.281458] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  \n'}
+[61.292996] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  \n'}
+[61.305100] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  \n'}
+[61.306475] (-) TimerEvent: {}
+[61.312064] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[61.326153] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  \n'}
+[61.339136] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[61.345076] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[61.362898] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  \n'}
+[61.373523] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  \n'}
+[61.382830] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  \n'}
+[61.391619] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  \n'}
+[61.405480] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  \n'}
+[61.406657] (-) TimerEvent: {}
+[61.415723] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  \n'}
+[61.426882] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  \n'}
+[61.440087] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  \n'}
+[61.455161] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  \n'}
+[61.462090] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  \n'}
+[61.474749] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  \n'}
+[61.485058] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  \n'}
+[61.496802] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[61.501307] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[61.510870] (-) TimerEvent: {}
+[61.516656] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[61.522648] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  \n'}
+[61.533354] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  \n'}
+[61.618732] (-) TimerEvent: {}
+[61.722892] (-) TimerEvent: {}
+[61.823756] (-) TimerEvent: {}
+[61.918113] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[61.926762] (-) TimerEvent: {}
+[62.028087] (-) TimerEvent: {}
+[62.055436] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[62.063315] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[62.064598] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[62.130483] (-) TimerEvent: {}
+[62.234107] (-) TimerEvent: {}
+[62.337096] (-) TimerEvent: {}
+[62.443296] (-) TimerEvent: {}
+[62.544701] (-) TimerEvent: {}
+[62.645744] (-) TimerEvent: {}
+[62.749500] (-) TimerEvent: {}
+[62.755017] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid pointcloud_to_laserscan::PointCloudToLaserScanNode::\x1b[01;32m\x1b[KsubscriptionListenerThreadLoop\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[62.759215] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp:123:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::subscribe(pointcloud_to_laserscan::PointCloudToLaserScanNode*, const char [9], rclcpp::SensorDataQoS&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[62.761639] (pointcloud_to_laserscan) StderrLine: {'line': b'  123 |         \x1b[01;31m\x1b[Ksub_.subscribe(this, "cloud_in", qos)\x1b[m\x1b[K;\n'}
+[62.762604] (pointcloud_to_laserscan) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[62.765205] (pointcloud_to_laserscan) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.hpp:32\x1b[m\x1b[K,\n'}
+[62.768579] (pointcloud_to_laserscan) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp:49\x1b[m\x1b[K,\n'}
+[62.772617] (pointcloud_to_laserscan) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp:41\x1b[m\x1b[K:\n'}
+[62.776944] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(NodePtr, const std::string&, rmw_qos_profile_t) \x1b[35m\x1b[K[with M = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[62.777703] (pointcloud_to_laserscan) StderrLine: {'line': b'  240 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override\n'}
+[62.778966] (pointcloud_to_laserscan) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[62.779631] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpointcloud_to_laserscan::PointCloudToLaserScanNode*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::NodePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[62.780401] (pointcloud_to_laserscan) StderrLine: {'line': b'  240 |   void subscribe(\x1b[01;36m\x1b[KNodePtr node\x1b[m\x1b[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override\n'}
+[62.781450] (pointcloud_to_laserscan) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[62.783485] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(NodeType*, const std::string&, rmw_qos_profile_t) \x1b[35m\x1b[K[with M = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[62.785507] (pointcloud_to_laserscan) StderrLine: {'line': b'  255 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override\n'}
+[62.786722] (pointcloud_to_laserscan) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[62.790767] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:85:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SensorDataQoS\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krmw_qos_profile_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Krmw_qos_profile_s\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[62.791417] (pointcloud_to_laserscan) StderrLine: {'line': b'  255 |   void subscribe(NodeType * node, const std::string& topic, \x1b[01;36m\x1b[Kconst rmw_qos_profile_t qos = rmw_qos_profile_default\x1b[m\x1b[K) override\n'}
+[62.792502] (pointcloud_to_laserscan) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[62.796622] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(NodePtr, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) \x1b[35m\x1b[K[with M = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[62.797660] (pointcloud_to_laserscan) StderrLine: {'line': b'  270 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[62.798496] (pointcloud_to_laserscan) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[62.800087] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 3 provided\n'}
+[62.801055] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(NodeType*, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) \x1b[35m\x1b[K[with M = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[62.807425] (pointcloud_to_laserscan) StderrLine: {'line': b'  292 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[62.808611] (pointcloud_to_laserscan) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[62.816403] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 3 provided\n'}
+[62.817581] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K() \x1b[35m\x1b[K[with M = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; NodeType = rclcpp::Node]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[62.831988] (pointcloud_to_laserscan) StderrLine: {'line': b'  319 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K() override\n'}
+[62.833304] (pointcloud_to_laserscan) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[62.845605] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 3 provided\n'}
+[62.849727] (-) TimerEvent: {}
+[62.950789] (-) TimerEvent: {}
+[63.051782] (-) TimerEvent: {}
+[63.154129] (-) TimerEvent: {}
+[63.216298] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system \n'}
+[63.224432] (ros2_laser_scan_merger) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:29 (find_package):\n'}
+[63.225551] (ros2_laser_scan_merger) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[63.226377] (ros2_laser_scan_merger) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[63.234174] (ros2_laser_scan_merger) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[63.235081] (ros2_laser_scan_merger) StderrLine: {'line': b'\n'}
+[63.235867] (ros2_laser_scan_merger) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[63.237523] (ros2_laser_scan_merger) StderrLine: {'line': b'\n'}
+[63.238440] (ros2_laser_scan_merger) StderrLine: {'line': b'    /usr\n'}
+[63.242442] (ros2_laser_scan_merger) StderrLine: {'line': b'\n'}
+[63.243385] (ros2_laser_scan_merger) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[63.244150] (ros2_laser_scan_merger) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[63.248597] (ros2_laser_scan_merger) StderrLine: {'line': b'\x1b[0m\n'}
+[63.257102] (-) TimerEvent: {}
+[63.355086] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[63.357381] (-) TimerEvent: {}
+[63.459121] (-) TimerEvent: {}
+[63.563485] (-) TimerEvent: {}
+[63.667124] (-) TimerEvent: {}
+[63.771616] (-) TimerEvent: {}
+[63.873171] (-) TimerEvent: {}
+[63.976077] (-) TimerEvent: {}
+[64.082115] (-) TimerEvent: {}
+[64.183127] (-) TimerEvent: {}
+[64.286174] (-) TimerEvent: {}
+[64.390582] (-) TimerEvent: {}
+[64.495390] (-) TimerEvent: {}
+[64.499769] (ros2_laser_scan_merger) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[64.570978] (ros2_laser_scan_merger) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[64.571876] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ros2_laser_scan_merger/include\n'}
+[64.572676] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[64.601094] (-) TimerEvent: {}
+[64.631097] (ros2_laser_scan_merger) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[64.632393] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[64.649141] (ros2_laser_scan_merger) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[64.650565] (ros2_laser_scan_merger) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[64.667807] (ros2_laser_scan_merger) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[64.685198] (ros2_laser_scan_merger) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[64.701418] (-) TimerEvent: {}
+[64.747287] (ros2_laser_scan_merger) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[64.748378] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[64.760160] (ros2_laser_scan_merger) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[64.777504] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Configuring done (61.8s)\n'}
+[64.801762] (-) TimerEvent: {}
+[64.906079] (-) TimerEvent: {}
+[65.009569] (-) TimerEvent: {}
+[65.113706] (-) TimerEvent: {}
+[65.216118] (-) TimerEvent: {}
+[65.320179] (-) TimerEvent: {}
+[65.358741] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Generating done (0.4s)\n'}
+[65.409639] (ros2_laser_scan_merger) StdoutLine: {'line': b'-- Build files have been written to: /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger\n'}
+[65.423322] (-) TimerEvent: {}
+[65.524492] (-) TimerEvent: {}
+[65.591874] (ros2_laser_scan_merger) CommandEnded: {'returncode': 0}
+[65.600235] (ros2_laser_scan_merger) JobProgress: {'identifier': 'ros2_laser_scan_merger', 'progress': 'build'}
+[65.600595] (ros2_laser_scan_merger) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger', '--', '-j4', '-l4'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.111.1 59352 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-84b0a254-8ee0-4065-8255-de5f31ec1585.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/ros2_laser_scan_merger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.111.1 59352 192.168.111.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[65.627134] (-) TimerEvent: {}
+[65.688875] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/src/laserscan_to_pointcloud_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid pointcloud_to_laserscan::LaserScanToPointCloudNode::\x1b[01;32m\x1b[KsubscriptionListenerThreadLoop\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[65.690471] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/src/laserscan_to_pointcloud_node.cpp:114:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<sensor_msgs::msg::LaserScan_<std::allocator<void> > >::subscribe(pointcloud_to_laserscan::LaserScanToPointCloudNode*, const char [8], rclcpp::SensorDataQoS&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[65.691488] (pointcloud_to_laserscan) StderrLine: {'line': b'  114 |         \x1b[01;31m\x1b[Ksub_.subscribe(this, "scan_in", qos)\x1b[m\x1b[K;\n'}
+[65.697868] (pointcloud_to_laserscan) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[65.699560] (pointcloud_to_laserscan) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.hpp:32\x1b[m\x1b[K,\n'}
+[65.700708] (pointcloud_to_laserscan) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp:49\x1b[m\x1b[K,\n'}
+[65.701611] (pointcloud_to_laserscan) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/src/laserscan_to_pointcloud_node.cpp:41\x1b[m\x1b[K:\n'}
+[65.703956] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(NodePtr, const std::string&, rmw_qos_profile_t) \x1b[35m\x1b[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[65.704754] (pointcloud_to_laserscan) StderrLine: {'line': b'  240 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override\n'}
+[65.705683] (pointcloud_to_laserscan) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[65.708078] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpointcloud_to_laserscan::LaserScanToPointCloudNode*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<sensor_msgs::msg::LaserScan_<std::allocator<void> > >::NodePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[65.709104] (pointcloud_to_laserscan) StderrLine: {'line': b'  240 |   void subscribe(\x1b[01;36m\x1b[KNodePtr node\x1b[m\x1b[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override\n'}
+[65.710965] (pointcloud_to_laserscan) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[65.714559] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(NodeType*, const std::string&, rmw_qos_profile_t) \x1b[35m\x1b[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[65.718057] (pointcloud_to_laserscan) StderrLine: {'line': b'  255 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override\n'}
+[65.719134] (pointcloud_to_laserscan) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[65.719708] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:85:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SensorDataQoS\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krmw_qos_profile_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Krmw_qos_profile_s\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[65.723290] (pointcloud_to_laserscan) StderrLine: {'line': b'  255 |   void subscribe(NodeType * node, const std::string& topic, \x1b[01;36m\x1b[Kconst rmw_qos_profile_t qos = rmw_qos_profile_default\x1b[m\x1b[K) override\n'}
+[65.725559] (pointcloud_to_laserscan) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[65.726437] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(NodePtr, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) \x1b[35m\x1b[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[65.728574] (-) TimerEvent: {}
+[65.730869] (pointcloud_to_laserscan) StderrLine: {'line': b'  270 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[65.736663] (pointcloud_to_laserscan) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[65.737529] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 3 provided\n'}
+[65.738373] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(NodeType*, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) \x1b[35m\x1b[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[65.745618] (pointcloud_to_laserscan) StderrLine: {'line': b'  292 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[65.746588] (pointcloud_to_laserscan) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[65.750789] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 3 provided\n'}
+[65.751599] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M, NodeType>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K() \x1b[35m\x1b[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[65.756493] (pointcloud_to_laserscan) StderrLine: {'line': b'  319 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K() override\n'}
+[65.762554] (pointcloud_to_laserscan) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[65.769764] (pointcloud_to_laserscan) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 3 provided\n'}
+[65.831105] (-) TimerEvent: {}
+[65.933746] (-) TimerEvent: {}
+[66.037376] (-) TimerEvent: {}
+[66.098240] (ros2_laser_scan_merger) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_laser_scan_merger.dir/src/main.cpp.o\x1b[0m\n'}
+[66.140213] (-) TimerEvent: {}
+[66.245109] (-) TimerEvent: {}
+[66.346211] (-) TimerEvent: {}
+[66.450527] (-) TimerEvent: {}
+[66.551675] (-) TimerEvent: {}
+[66.656105] (-) TimerEvent: {}
+[66.757276] (-) TimerEvent: {}
+[66.860856] (-) TimerEvent: {}
+[66.964193] (-) TimerEvent: {}
+[67.068778] (-) TimerEvent: {}
+[67.171548] (-) TimerEvent: {}
+[67.275340] (-) TimerEvent: {}
+[67.379215] (-) TimerEvent: {}
+[67.483116] (-) TimerEvent: {}
+[67.586132] (-) TimerEvent: {}
+[67.690109] (-) TimerEvent: {}
+[67.793837] (-) TimerEvent: {}
+[67.898109] (-) TimerEvent: {}
+[67.999199] (-) TimerEvent: {}
+[68.103593] (-) TimerEvent: {}
+[68.205465] (-) TimerEvent: {}
+[68.311539] (-) TimerEvent: {}
+[68.416365] (-) TimerEvent: {}
+[68.521979] (-) TimerEvent: {}
+[68.626647] (-) TimerEvent: {}
+[68.731095] (-) TimerEvent: {}
+[68.835860] (-) TimerEvent: {}
+[68.939511] (-) TimerEvent: {}
+[69.045194] (-) TimerEvent: {}
+[69.146641] (-) TimerEvent: {}
+[69.250124] (-) TimerEvent: {}
+[69.354378] (-) TimerEvent: {}
+[69.459477] (-) TimerEvent: {}
+[69.564146] (-) TimerEvent: {}
+[69.668672] (-) TimerEvent: {}
+[69.771063] (-) TimerEvent: {}
+[69.873252] (-) TimerEvent: {}
+[69.975581] (-) TimerEvent: {}
+[70.079040] (-) TimerEvent: {}
+[70.183750] (-) TimerEvent: {}
+[70.286645] (-) TimerEvent: {}
+[70.395186] (-) TimerEvent: {}
+[70.496641] (-) TimerEvent: {}
+[70.603723] (-) TimerEvent: {}
+[70.711128] (-) TimerEvent: {}
+[70.815084] (-) TimerEvent: {}
+[70.924288] (-) TimerEvent: {}
+[71.027654] (-) TimerEvent: {}
+[71.129403] (-) TimerEvent: {}
+[71.234178] (-) TimerEvent: {}
+[71.338122] (-) TimerEvent: {}
+[71.441865] (-) TimerEvent: {}
+[71.545173] (-) TimerEvent: {}
+[71.648185] (-) TimerEvent: {}
+[71.749757] (-) TimerEvent: {}
+[71.856531] (-) TimerEvent: {}
+[71.957646] (-) TimerEvent: {}
+[72.062618] (-) TimerEvent: {}
+[72.167744] (-) TimerEvent: {}
+[72.276153] (-) TimerEvent: {}
+[72.377603] (-) TimerEvent: {}
+[72.481322] (-) TimerEvent: {}
+[72.586121] (-) TimerEvent: {}
+[72.687337] (-) TimerEvent: {}
+[72.791607] (-) TimerEvent: {}
+[72.897175] (-) TimerEvent: {}
+[73.002142] (-) TimerEvent: {}
+[73.103293] (-) TimerEvent: {}
+[73.207578] (-) TimerEvent: {}
+[73.313137] (-) TimerEvent: {}
+[73.417127] (-) TimerEvent: {}
+[73.518258] (-) TimerEvent: {}
+[73.622581] (-) TimerEvent: {}
+[73.724953] (-) TimerEvent: {}
+[73.830488] (-) TimerEvent: {}
+[73.932030] (-) TimerEvent: {}
+[74.034458] (-) TimerEvent: {}
+[74.138407] (-) TimerEvent: {}
+[74.242167] (-) TimerEvent: {}
+[74.346119] (-) TimerEvent: {}
+[74.451338] (-) TimerEvent: {}
+[74.555130] (-) TimerEvent: {}
+[74.656262] (-) TimerEvent: {}
+[74.759559] (-) TimerEvent: {}
+[74.863782] (-) TimerEvent: {}
+[74.964969] (-) TimerEvent: {}
+[75.073121] (-) TimerEvent: {}
+[75.174050] (-) TimerEvent: {}
+[75.275771] (-) TimerEvent: {}
+[75.380136] (-) TimerEvent: {}
+[75.481105] (-) TimerEvent: {}
+[75.584135] (-) TimerEvent: {}
+[75.688112] (-) TimerEvent: {}
+[75.789484] (-) TimerEvent: {}
+[75.890439] (-) TimerEvent: {}
+[75.994167] (-) TimerEvent: {}
+[76.095819] (-) TimerEvent: {}
+[76.198847] (-) TimerEvent: {}
+[76.301091] (-) TimerEvent: {}
+[76.402009] (-) TimerEvent: {}
+[76.503135] (-) TimerEvent: {}
+[76.607549] (-) TimerEvent: {}
+[76.711545] (-) TimerEvent: {}
+[76.814124] (-) TimerEvent: {}
+[76.918396] (-) TimerEvent: {}
+[77.023177] (-) TimerEvent: {}
+[77.125452] (-) TimerEvent: {}
+[77.230492] (-) TimerEvent: {}
+[77.335460] (-) TimerEvent: {}
+[77.436675] (-) TimerEvent: {}
+[77.548110] (-) TimerEvent: {}
+[77.649065] (-) TimerEvent: {}
+[77.760163] (-) TimerEvent: {}
+[77.865091] (-) TimerEvent: {}
+[77.967031] (-) TimerEvent: {}
+[78.073215] (-) TimerEvent: {}
+[78.180716] (-) TimerEvent: {}
+[78.281768] (-) TimerEvent: {}
+[78.384114] (-) TimerEvent: {}
+[78.488136] (-) TimerEvent: {}
+[78.589280] (-) TimerEvent: {}
+[78.693109] (-) TimerEvent: {}
+[78.794086] (-) TimerEvent: {}
+[78.897118] (-) TimerEvent: {}
+[78.998076] (-) TimerEvent: {}
+[79.101111] (-) TimerEvent: {}
+[79.202094] (-) TimerEvent: {}
+[79.304105] (-) TimerEvent: {}
+[79.407117] (-) TimerEvent: {}
+[79.508070] (-) TimerEvent: {}
+[79.612100] (-) TimerEvent: {}
+[79.713008] (-) TimerEvent: {}
+[79.817097] (-) TimerEvent: {}
+[79.927155] (-) TimerEvent: {}
+[80.037107] (-) TimerEvent: {}
+[80.147094] (-) TimerEvent: {}
+[80.253512] (-) TimerEvent: {}
+[80.362192] (-) TimerEvent: {}
+[80.471273] (-) TimerEvent: {}
+[80.574089] (-) TimerEvent: {}
+[80.675422] (-) TimerEvent: {}
+[80.778137] (-) TimerEvent: {}
+[80.879056] (-) TimerEvent: {}
+[80.980060] (-) TimerEvent: {}
+[81.081064] (-) TimerEvent: {}
+[81.182124] (-) TimerEvent: {}
+[81.283115] (-) TimerEvent: {}
+[81.386095] (-) TimerEvent: {}
+[81.487009] (-) TimerEvent: {}
+[81.589665] (-) TimerEvent: {}
+[81.692097] (-) TimerEvent: {}
+[81.793071] (-) TimerEvent: {}
+[81.896872] (-) TimerEvent: {}
+[82.001572] (-) TimerEvent: {}
+[82.104860] (-) TimerEvent: {}
+[82.209118] (-) TimerEvent: {}
+[82.310187] (-) TimerEvent: {}
+[82.412155] (-) TimerEvent: {}
+[82.516279] (-) TimerEvent: {}
+[82.619473] (-) TimerEvent: {}
+[82.722954] (-) TimerEvent: {}
+[82.823964] (-) TimerEvent: {}
+[82.928126] (-) TimerEvent: {}
+[83.032111] (-) TimerEvent: {}
+[83.133214] (-) TimerEvent: {}
+[83.236172] (-) TimerEvent: {}
+[83.339274] (-) TimerEvent: {}
+[83.445353] (-) TimerEvent: {}
+[83.548715] (-) TimerEvent: {}
+[83.649655] (-) TimerEvent: {}
+[83.750694] (-) TimerEvent: {}
+[83.854313] (-) TimerEvent: {}
+[83.955303] (-) TimerEvent: {}
+[84.057384] (-) TimerEvent: {}
+[84.163159] (-) TimerEvent: {}
+[84.265140] (-) TimerEvent: {}
+[84.369389] (-) TimerEvent: {}
+[84.470852] (-) TimerEvent: {}
+[84.574576] (-) TimerEvent: {}
+[84.675689] (-) TimerEvent: {}
+[84.778737] (-) TimerEvent: {}
+[84.879738] (-) TimerEvent: {}
+[84.982135] (-) TimerEvent: {}
+[85.084162] (-) TimerEvent: {}
+[85.186141] (-) TimerEvent: {}
+[85.290138] (-) TimerEvent: {}
+[85.391100] (-) TimerEvent: {}
+[85.492021] (-) TimerEvent: {}
+[85.593083] (-) TimerEvent: {}
+[85.696856] (-) TimerEvent: {}
+[85.797820] (-) TimerEvent: {}
+[85.898734] (-) TimerEvent: {}
+[86.002192] (-) TimerEvent: {}
+[86.103670] (-) TimerEvent: {}
+[86.206085] (-) TimerEvent: {}
+[86.307006] (-) TimerEvent: {}
+[86.410091] (-) TimerEvent: {}
+[86.510960] (-) TimerEvent: {}
+[86.613722] (-) TimerEvent: {}
+[86.717129] (-) TimerEvent: {}
+[86.818013] (-) TimerEvent: {}
+[86.918897] (-) TimerEvent: {}
+[87.020883] (-) TimerEvent: {}
+[87.123120] (-) TimerEvent: {}
+[87.225106] (-) TimerEvent: {}
+[87.328100] (-) TimerEvent: {}
+[87.429481] (-) TimerEvent: {}
+[87.533090] (-) TimerEvent: {}
+[87.634004] (-) TimerEvent: {}
+[87.734848] (-) TimerEvent: {}
+[87.837310] (-) TimerEvent: {}
+[87.940091] (-) TimerEvent: {}
+[88.041102] (-) TimerEvent: {}
+[88.142073] (-) TimerEvent: {}
+[88.244425] (-) TimerEvent: {}
+[88.347823] (-) TimerEvent: {}
+[88.451092] (-) TimerEvent: {}
+[88.556125] (-) TimerEvent: {}
+[88.657089] (-) TimerEvent: {}
+[88.760393] (-) TimerEvent: {}
+[88.864123] (-) TimerEvent: {}
+[88.965136] (-) TimerEvent: {}
+[89.067328] (-) TimerEvent: {}
+[89.171121] (-) TimerEvent: {}
+[89.272204] (-) TimerEvent: {}
+[89.273994] (pointcloud_to_laserscan) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pointcloud_to_laserscan.dir/build.make:76: CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o] Error 1\n'}
+[89.275263] (pointcloud_to_laserscan) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/pointcloud_to_laserscan.dir/all] Error 2\n'}
+[89.276608] (pointcloud_to_laserscan) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[89.374129] (-) TimerEvent: {}
+[89.475090] (-) TimerEvent: {}
+[89.576691] (-) TimerEvent: {}
+[89.679271] (-) TimerEvent: {}
+[89.780765] (-) TimerEvent: {}
+[89.881997] (-) TimerEvent: {}
+[89.983897] (-) TimerEvent: {}
+[90.086971] (-) TimerEvent: {}
+[90.129824] (pointcloud_to_laserscan) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/laserscan_to_pointcloud.dir/build.make:76: CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o] Error 1\n'}
+[90.131352] (pointcloud_to_laserscan) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/laserscan_to_pointcloud.dir/all] Error 2\n'}
+[90.135547] (pointcloud_to_laserscan) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[90.144712] (pointcloud_to_laserscan) CommandEnded: {'returncode': 2}
+[90.184941] (pointcloud_to_laserscan) JobEnded: {'identifier': 'pointcloud_to_laserscan', 'rc': 2}
+[90.188423] (-) TimerEvent: {}
+[90.289170] (-) TimerEvent: {}
+[90.389887] (-) TimerEvent: {}
+[90.490715] (-) TimerEvent: {}
+[90.591547] (-) TimerEvent: {}
+[90.692499] (-) TimerEvent: {}
+[90.793435] (-) TimerEvent: {}
+[90.894336] (-) TimerEvent: {}
+[90.995178] (-) TimerEvent: {}
+[91.096064] (-) TimerEvent: {}
+[91.196885] (-) TimerEvent: {}
+[91.297757] (-) TimerEvent: {}
+[91.398590] (-) TimerEvent: {}
+[91.499535] (-) TimerEvent: {}
+[91.600638] (-) TimerEvent: {}
+[91.701596] (-) TimerEvent: {}
+[91.802380] (-) TimerEvent: {}
+[91.903199] (-) TimerEvent: {}
+[92.004077] (-) TimerEvent: {}
+[92.104982] (-) TimerEvent: {}
+[92.205804] (-) TimerEvent: {}
+[92.306639] (-) TimerEvent: {}
+[92.407507] (-) TimerEvent: {}
+[92.508394] (-) TimerEvent: {}
+[92.609314] (-) TimerEvent: {}
+[92.710290] (-) TimerEvent: {}
+[92.811387] (-) TimerEvent: {}
+[92.912514] (-) TimerEvent: {}
+[93.013787] (-) TimerEvent: {}
+[93.114882] (-) TimerEvent: {}
+[93.216391] (-) TimerEvent: {}
+[93.317351] (-) TimerEvent: {}
+[93.418244] (-) TimerEvent: {}
+[93.519196] (-) TimerEvent: {}
+[93.620070] (-) TimerEvent: {}
+[93.721445] (-) TimerEvent: {}
+[93.822384] (-) TimerEvent: {}
+[93.923205] (-) TimerEvent: {}
+[94.024034] (-) TimerEvent: {}
+[94.124792] (-) TimerEvent: {}
+[94.225615] (-) TimerEvent: {}
+[94.326543] (-) TimerEvent: {}
+[94.427318] (-) TimerEvent: {}
+[94.528558] (-) TimerEvent: {}
+[94.629389] (-) TimerEvent: {}
+[94.730199] (-) TimerEvent: {}
+[94.831042] (-) TimerEvent: {}
+[94.932176] (-) TimerEvent: {}
+[95.033240] (-) TimerEvent: {}
+[95.134086] (-) TimerEvent: {}
+[95.234984] (-) TimerEvent: {}
+[95.335727] (-) TimerEvent: {}
+[95.436730] (-) TimerEvent: {}
+[95.537578] (-) TimerEvent: {}
+[95.638460] (-) TimerEvent: {}
+[95.739424] (-) TimerEvent: {}
+[95.840542] (-) TimerEvent: {}
+[95.941538] (-) TimerEvent: {}
+[96.043033] (-) TimerEvent: {}
+[96.144329] (-) TimerEvent: {}
+[96.246723] (-) TimerEvent: {}
+[96.347622] (-) TimerEvent: {}
+[96.448467] (-) TimerEvent: {}
+[96.549474] (-) TimerEvent: {}
+[96.650478] (-) TimerEvent: {}
+[96.751305] (-) TimerEvent: {}
+[96.853308] (-) TimerEvent: {}
+[96.954646] (-) TimerEvent: {}
+[97.055575] (-) TimerEvent: {}
+[97.156550] (-) TimerEvent: {}
+[97.257659] (-) TimerEvent: {}
+[97.358500] (-) TimerEvent: {}
+[97.462119] (-) TimerEvent: {}
+[97.563010] (-) TimerEvent: {}
+[97.663847] (-) TimerEvent: {}
+[97.764761] (-) TimerEvent: {}
+[97.865950] (-) TimerEvent: {}
+[97.966806] (-) TimerEvent: {}
+[98.068312] (-) TimerEvent: {}
+[98.169093] (-) TimerEvent: {}
+[98.269865] (-) TimerEvent: {}
+[98.370739] (-) TimerEvent: {}
+[98.471583] (-) TimerEvent: {}
+[98.572468] (-) TimerEvent: {}
+[98.673570] (-) TimerEvent: {}
+[98.774575] (-) TimerEvent: {}
+[98.875416] (-) TimerEvent: {}
+[98.976316] (-) TimerEvent: {}
+[99.077095] (-) TimerEvent: {}
+[99.177961] (-) TimerEvent: {}
+[99.278802] (-) TimerEvent: {}
+[99.379747] (-) TimerEvent: {}
+[99.480644] (-) TimerEvent: {}
+[99.581506] (-) TimerEvent: {}
+[99.682951] (-) TimerEvent: {}
+[99.784164] (-) TimerEvent: {}
+[99.884890] (-) TimerEvent: {}
+[99.985663] (-) TimerEvent: {}
+[100.086447] (-) TimerEvent: {}
+[100.187370] (-) TimerEvent: {}
+[100.288234] (-) TimerEvent: {}
+[100.389096] (-) TimerEvent: {}
+[100.489953] (-) TimerEvent: {}
+[100.590704] (-) TimerEvent: {}
+[100.691533] (-) TimerEvent: {}
+[100.792479] (-) TimerEvent: {}
+[100.893351] (-) TimerEvent: {}
+[100.994249] (-) TimerEvent: {}
+[101.095104] (-) TimerEvent: {}
+[101.195970] (-) TimerEvent: {}
+[101.296845] (-) TimerEvent: {}
+[101.397734] (-) TimerEvent: {}
+[101.498739] (-) TimerEvent: {}
+[101.599544] (-) TimerEvent: {}
+[101.700965] (-) TimerEvent: {}
+[101.802314] (-) TimerEvent: {}
+[101.903848] (-) TimerEvent: {}
+[102.005017] (-) TimerEvent: {}
+[102.105849] (-) TimerEvent: {}
+[102.206737] (-) TimerEvent: {}
+[102.307574] (-) TimerEvent: {}
+[102.409036] (-) TimerEvent: {}
+[102.509833] (-) TimerEvent: {}
+[102.542375] (ros2_laser_scan_merger) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ros2_laser_scan_merger/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid scanMerger::\x1b[01;32m\x1b[Kupdate_point_cloud_rgb\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[102.545383] (ros2_laser_scan_merger) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ros2_laser_scan_merger/src/main.cpp:76:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[102.546741] (ros2_laser_scan_merger) StderrLine: {'line': b'   76 |       for (float i = temp_min_; i <= temp_max_ && \x1b[01;35m\x1b[Kcount < laser1_->ranges.size()\x1b[m\x1b[K;\n'}
+[102.547693] (ros2_laser_scan_merger) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[102.555418] (ros2_laser_scan_merger) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/ros2_laser_scan_merger/src/main.cpp:158:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[102.559466] (ros2_laser_scan_merger) StderrLine: {'line': b'  158 |       for (float i = temp_min_; i <= temp_max_ && \x1b[01;35m\x1b[Kcount < laser2_->ranges.size()\x1b[m\x1b[K;\n'}
+[102.561706] (ros2_laser_scan_merger) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[102.610097] (-) TimerEvent: {}
+[102.711338] (-) TimerEvent: {}
+[102.812271] (-) TimerEvent: {}
+[102.913254] (-) TimerEvent: {}
+[103.014103] (-) TimerEvent: {}
+[103.115018] (-) TimerEvent: {}
+[103.216520] (-) TimerEvent: {}
+[103.317643] (-) TimerEvent: {}
+[103.418472] (-) TimerEvent: {}
+[103.519377] (-) TimerEvent: {}
+[103.625350] (-) TimerEvent: {}
+[103.726196] (-) TimerEvent: {}
+[103.828033] (-) TimerEvent: {}
+[103.928846] (-) TimerEvent: {}
+[104.029891] (-) TimerEvent: {}
+[104.131010] (-) TimerEvent: {}
+[104.232057] (-) TimerEvent: {}
+[104.333084] (-) TimerEvent: {}
+[104.434091] (-) TimerEvent: {}
+[104.535114] (-) TimerEvent: {}
+[104.636059] (-) TimerEvent: {}
+[104.736796] (-) TimerEvent: {}
+[104.837566] (-) TimerEvent: {}
+[104.938327] (-) TimerEvent: {}
+[105.039060] (-) TimerEvent: {}
+[105.139836] (-) TimerEvent: {}
+[105.241498] (-) TimerEvent: {}
+[105.343351] (-) TimerEvent: {}
+[105.444894] (-) TimerEvent: {}
+[105.546808] (-) TimerEvent: {}
+[105.648330] (-) TimerEvent: {}
+[105.749777] (-) TimerEvent: {}
+[105.850596] (-) TimerEvent: {}
+[105.951444] (-) TimerEvent: {}
+[106.052358] (-) TimerEvent: {}
+[106.153606] (-) TimerEvent: {}
+[106.254477] (-) TimerEvent: {}
+[106.355351] (-) TimerEvent: {}
+[106.456179] (-) TimerEvent: {}
+[106.557040] (-) TimerEvent: {}
+[106.657880] (-) TimerEvent: {}
+[106.758738] (-) TimerEvent: {}
+[106.859875] (-) TimerEvent: {}
+[106.961133] (-) TimerEvent: {}
+[107.062758] (-) TimerEvent: {}
+[107.164087] (-) TimerEvent: {}
+[107.264896] (-) TimerEvent: {}
+[107.365732] (-) TimerEvent: {}
+[107.467527] (-) TimerEvent: {}
+[107.569147] (-) TimerEvent: {}
+[107.672357] (-) TimerEvent: {}
+[107.773716] (-) TimerEvent: {}
+[107.874606] (-) TimerEvent: {}
+[107.976226] (-) TimerEvent: {}
+[108.077078] (-) TimerEvent: {}
+[108.178047] (-) TimerEvent: {}
+[108.279000] (-) TimerEvent: {}
+[108.379810] (-) TimerEvent: {}
+[108.480649] (-) TimerEvent: {}
+[108.581599] (-) TimerEvent: {}
+[108.682500] (-) TimerEvent: {}
+[108.783406] (-) TimerEvent: {}
+[108.884321] (-) TimerEvent: {}
+[108.985333] (-) TimerEvent: {}
+[109.086264] (-) TimerEvent: {}
+[109.187086] (-) TimerEvent: {}
+[109.288029] (-) TimerEvent: {}
+[109.389456] (-) TimerEvent: {}
+[109.490297] (-) TimerEvent: {}
+[109.591079] (-) TimerEvent: {}
+[109.691867] (-) TimerEvent: {}
+[109.792695] (-) TimerEvent: {}
+[109.893566] (-) TimerEvent: {}
+[109.994508] (-) TimerEvent: {}
+[110.095325] (-) TimerEvent: {}
+[110.196355] (-) TimerEvent: {}
+[110.297209] (-) TimerEvent: {}
+[110.401285] (-) TimerEvent: {}
+[110.502127] (-) TimerEvent: {}
+[110.603057] (-) TimerEvent: {}
+[110.705107] (-) TimerEvent: {}
+[110.809109] (-) TimerEvent: {}
+[110.910214] (-) TimerEvent: {}
+[111.011102] (-) TimerEvent: {}
+[111.111879] (-) TimerEvent: {}
+[111.212805] (-) TimerEvent: {}
+[111.314001] (-) TimerEvent: {}
+[111.414810] (-) TimerEvent: {}
+[111.515670] (-) TimerEvent: {}
+[111.616552] (-) TimerEvent: {}
+[111.717445] (-) TimerEvent: {}
+[111.818846] (-) TimerEvent: {}
+[111.920552] (-) TimerEvent: {}
+[112.022315] (-) TimerEvent: {}
+[112.123757] (-) TimerEvent: {}
+[112.224719] (-) TimerEvent: {}
+[112.325678] (-) TimerEvent: {}
+[112.426584] (-) TimerEvent: {}
+[112.527413] (-) TimerEvent: {}
+[112.628220] (-) TimerEvent: {}
+[112.729771] (-) TimerEvent: {}
+[112.831239] (-) TimerEvent: {}
+[112.932008] (-) TimerEvent: {}
+[113.032725] (-) TimerEvent: {}
+[113.133457] (-) TimerEvent: {}
+[113.234243] (-) TimerEvent: {}
+[113.335125] (-) TimerEvent: {}
+[113.435969] (-) TimerEvent: {}
+[113.536763] (-) TimerEvent: {}
+[113.637607] (-) TimerEvent: {}
+[113.738465] (-) TimerEvent: {}
+[113.841477] (-) TimerEvent: {}
+[113.942302] (-) TimerEvent: {}
+[114.043215] (-) TimerEvent: {}
+[114.144093] (-) TimerEvent: {}
+[114.244942] (-) TimerEvent: {}
+[114.346702] (-) TimerEvent: {}
+[114.447878] (-) TimerEvent: {}
+[114.549242] (-) TimerEvent: {}
+[114.650176] (-) TimerEvent: {}
+[114.751021] (-) TimerEvent: {}
+[114.851847] (-) TimerEvent: {}
+[114.952717] (-) TimerEvent: {}
+[115.053531] (-) TimerEvent: {}
+[115.154372] (-) TimerEvent: {}
+[115.255214] (-) TimerEvent: {}
+[115.355981] (-) TimerEvent: {}
+[115.456832] (-) TimerEvent: {}
+[115.557871] (-) TimerEvent: {}
+[115.658648] (-) TimerEvent: {}
+[115.759451] (-) TimerEvent: {}
+[115.860286] (-) TimerEvent: {}
+[115.963651] (-) TimerEvent: {}
+[116.064939] (-) TimerEvent: {}
+[116.166043] (-) TimerEvent: {}
+[116.267101] (-) TimerEvent: {}
+[116.367765] (-) TimerEvent: {}
+[116.468570] (-) TimerEvent: {}
+[116.569379] (-) TimerEvent: {}
+[116.670098] (-) TimerEvent: {}
+[116.771566] (-) TimerEvent: {}
+[116.873373] (-) TimerEvent: {}
+[116.975231] (-) TimerEvent: {}
+[117.076821] (-) TimerEvent: {}
+[117.177629] (-) TimerEvent: {}
+[117.279172] (-) TimerEvent: {}
+[117.380768] (-) TimerEvent: {}
+[117.482337] (-) TimerEvent: {}
+[117.583628] (-) TimerEvent: {}
+[117.685269] (-) TimerEvent: {}
+[117.786116] (-) TimerEvent: {}
+[117.887054] (-) TimerEvent: {}
+[117.988050] (-) TimerEvent: {}
+[118.089010] (-) TimerEvent: {}
+[118.189831] (-) TimerEvent: {}
+[118.290684] (-) TimerEvent: {}
+[118.391672] (-) TimerEvent: {}
+[118.492636] (-) TimerEvent: {}
+[118.593566] (-) TimerEvent: {}
+[118.694521] (-) TimerEvent: {}
+[118.796578] (-) TimerEvent: {}
+[118.897474] (-) TimerEvent: {}
+[118.998288] (-) TimerEvent: {}
+[119.100228] (-) TimerEvent: {}
+[119.201098] (-) TimerEvent: {}
+[119.301984] (-) TimerEvent: {}
+[119.402794] (-) TimerEvent: {}
+[119.503726] (-) TimerEvent: {}
+[119.605080] (-) TimerEvent: {}
+[119.705823] (-) TimerEvent: {}
+[119.806600] (-) TimerEvent: {}
+[119.907392] (-) TimerEvent: {}
+[120.008123] (-) TimerEvent: {}
+[120.111441] (-) TimerEvent: {}
+[120.212240] (-) TimerEvent: {}
+[120.312991] (-) TimerEvent: {}
+[120.413707] (-) TimerEvent: {}
+[120.514470] (-) TimerEvent: {}
+[120.615230] (-) TimerEvent: {}
+[120.716001] (-) TimerEvent: {}
+[120.816815] (-) TimerEvent: {}
+[120.917723] (-) TimerEvent: {}
+[121.018525] (-) TimerEvent: {}
+[121.119367] (-) TimerEvent: {}
+[121.220158] (-) TimerEvent: {}
+[121.320871] (-) TimerEvent: {}
+[121.421692] (-) TimerEvent: {}
+[121.522503] (-) TimerEvent: {}
+[121.623320] (-) TimerEvent: {}
+[121.724053] (-) TimerEvent: {}
+[121.824769] (-) TimerEvent: {}
+[121.925604] (-) TimerEvent: {}
+[122.026833] (-) TimerEvent: {}
+[122.130098] (-) TimerEvent: {}
+[122.232097] (-) TimerEvent: {}
+[122.333061] (-) TimerEvent: {}
+[122.436071] (-) TimerEvent: {}
+[122.540148] (-) TimerEvent: {}
+[122.642080] (-) TimerEvent: {}
+[122.742875] (-) TimerEvent: {}
+[122.845145] (-) TimerEvent: {}
+[122.946033] (-) TimerEvent: {}
+[123.048106] (-) TimerEvent: {}
+[123.148983] (-) TimerEvent: {}
+[123.252114] (-) TimerEvent: {}
+[123.352886] (-) TimerEvent: {}
+[123.453672] (-) TimerEvent: {}
+[123.554460] (-) TimerEvent: {}
+[123.655203] (-) TimerEvent: {}
+[123.755965] (-) TimerEvent: {}
+[123.856703] (-) TimerEvent: {}
+[123.957511] (-) TimerEvent: {}
+[124.058227] (-) TimerEvent: {}
+[124.159015] (-) TimerEvent: {}
+[124.259717] (-) TimerEvent: {}
+[124.360496] (-) TimerEvent: {}
+[124.461276] (-) TimerEvent: {}
+[124.562056] (-) TimerEvent: {}
+[124.662855] (-) TimerEvent: {}
+[124.764077] (-) TimerEvent: {}
+[124.864809] (-) TimerEvent: {}
+[124.966287] (-) TimerEvent: {}
+[125.067558] (-) TimerEvent: {}
+[125.168404] (-) TimerEvent: {}
+[125.269156] (-) TimerEvent: {}
+[125.369857] (-) TimerEvent: {}
+[125.479601] (-) TimerEvent: {}
+[125.580393] (-) TimerEvent: {}
+[125.681211] (-) TimerEvent: {}
+[125.781998] (-) TimerEvent: {}
+[125.885089] (-) TimerEvent: {}
+[125.985876] (-) TimerEvent: {}
+[126.086669] (-) TimerEvent: {}
+[126.187459] (-) TimerEvent: {}
+[126.288397] (-) TimerEvent: {}
+[126.391075] (-) TimerEvent: {}
+[126.491825] (-) TimerEvent: {}
+[126.592571] (-) TimerEvent: {}
+[126.693392] (-) TimerEvent: {}
+[126.794232] (-) TimerEvent: {}
+[126.895006] (-) TimerEvent: {}
+[126.995736] (-) TimerEvent: {}
+[127.096595] (-) TimerEvent: {}
+[127.197444] (-) TimerEvent: {}
+[127.298513] (-) TimerEvent: {}
+[127.399441] (-) TimerEvent: {}
+[127.503070] (-) TimerEvent: {}
+[127.603819] (-) TimerEvent: {}
+[127.706080] (-) TimerEvent: {}
+[127.809163] (-) TimerEvent: {}
+[127.910035] (-) TimerEvent: {}
+[128.010951] (-) TimerEvent: {}
+[128.111738] (-) TimerEvent: {}
+[128.212616] (-) TimerEvent: {}
+[128.313581] (-) TimerEvent: {}
+[128.414401] (-) TimerEvent: {}
+[128.515267] (-) TimerEvent: {}
+[128.616094] (-) TimerEvent: {}
+[128.717984] (-) TimerEvent: {}
+[128.819102] (-) TimerEvent: {}
+[128.920463] (-) TimerEvent: {}
+[129.021419] (-) TimerEvent: {}
+[129.122436] (-) TimerEvent: {}
+[129.223418] (-) TimerEvent: {}
+[129.324122] (-) TimerEvent: {}
+[129.424808] (-) TimerEvent: {}
+[129.525543] (-) TimerEvent: {}
+[129.626282] (-) TimerEvent: {}
+[129.727053] (-) TimerEvent: {}
+[129.828564] (-) TimerEvent: {}
+[129.929443] (-) TimerEvent: {}
+[130.030175] (-) TimerEvent: {}
+[130.131093] (-) TimerEvent: {}
+[130.231865] (-) TimerEvent: {}
+[130.332608] (-) TimerEvent: {}
+[130.433371] (-) TimerEvent: {}
+[130.534072] (-) TimerEvent: {}
+[130.634825] (-) TimerEvent: {}
+[130.735584] (-) TimerEvent: {}
+[130.836370] (-) TimerEvent: {}
+[130.937117] (-) TimerEvent: {}
+[131.037875] (-) TimerEvent: {}
+[131.141064] (-) TimerEvent: {}
+[131.241785] (-) TimerEvent: {}
+[131.342552] (-) TimerEvent: {}
+[131.443316] (-) TimerEvent: {}
+[131.544041] (-) TimerEvent: {}
+[131.644746] (-) TimerEvent: {}
+[131.745779] (-) TimerEvent: {}
+[131.846502] (-) TimerEvent: {}
+[131.947368] (-) TimerEvent: {}
+[132.048866] (-) TimerEvent: {}
+[132.150052] (-) TimerEvent: {}
+[132.250858] (-) TimerEvent: {}
+[132.352557] (-) TimerEvent: {}
+[132.454407] (-) TimerEvent: {}
+[132.555655] (-) TimerEvent: {}
+[132.659871] (-) TimerEvent: {}
+[132.724126] (ros2_laser_scan_merger) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ros2_laser_scan_merger\x1b[0m\n'}
+[132.763091] (-) TimerEvent: {}
+[132.863893] (-) TimerEvent: {}
+[132.964785] (-) TimerEvent: {}
+[133.067385] (-) TimerEvent: {}
+[133.168592] (-) TimerEvent: {}
+[133.269522] (-) TimerEvent: {}
+[133.370829] (-) TimerEvent: {}
+[133.471787] (-) TimerEvent: {}
+[133.573609] (-) TimerEvent: {}
+[133.676155] (-) TimerEvent: {}
+[133.777495] (-) TimerEvent: {}
+[133.880092] (-) TimerEvent: {}
+[133.981521] (-) TimerEvent: {}
+[134.083224] (-) TimerEvent: {}
+[134.184193] (-) TimerEvent: {}
+[134.286294] (-) TimerEvent: {}
+[134.388100] (-) TimerEvent: {}
+[134.489062] (-) TimerEvent: {}
+[134.589995] (-) TimerEvent: {}
+[134.691342] (-) TimerEvent: {}
+[134.792133] (-) TimerEvent: {}
+[134.892865] (-) TimerEvent: {}
+[134.993632] (-) TimerEvent: {}
+[135.094337] (-) TimerEvent: {}
+[135.195046] (-) TimerEvent: {}
+[135.295830] (-) TimerEvent: {}
+[135.396596] (-) TimerEvent: {}
+[135.497375] (-) TimerEvent: {}
+[135.598179] (-) TimerEvent: {}
+[135.698951] (-) TimerEvent: {}
+[135.799582] (-) TimerEvent: {}
+[135.900367] (-) TimerEvent: {}
+[136.001293] (-) TimerEvent: {}
+[136.102289] (-) TimerEvent: {}
+[136.203706] (-) TimerEvent: {}
+[136.304929] (-) TimerEvent: {}
+[136.405579] (-) TimerEvent: {}
+[136.506308] (-) TimerEvent: {}
+[136.607611] (-) TimerEvent: {}
+[136.708557] (-) TimerEvent: {}
+[136.809693] (-) TimerEvent: {}
+[136.910463] (-) TimerEvent: {}
+[137.011546] (-) TimerEvent: {}
+[137.112487] (-) TimerEvent: {}
+[137.213497] (-) TimerEvent: {}
+[137.314217] (-) TimerEvent: {}
+[137.415871] (-) TimerEvent: {}
+[137.517140] (-) TimerEvent: {}
+[137.620261] (-) TimerEvent: {}
+[137.721066] (-) TimerEvent: {}
+[137.778230] (ros2_laser_scan_merger) StdoutLine: {'line': b'[100%] Built target ros2_laser_scan_merger\n'}
+[137.821248] (-) TimerEvent: {}
+[137.835235] (ros2_laser_scan_merger) JobEnded: {'identifier': 'ros2_laser_scan_merger', 'rc': 'SIGINT'}
+[137.848132] (-) EventReactorShutdown: {}

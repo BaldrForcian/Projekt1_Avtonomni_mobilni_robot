@@ -1,0 +1,68 @@
+[01m[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp:[m[K In member function ‘[01m[Kvoid pointcloud_to_laserscan::PointCloudToLaserScanNode::[01;32m[KsubscriptionListenerThreadLoop[m[K()[m[K’:
+[01m[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp:123:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Subscriber<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::subscribe(pointcloud_to_laserscan::PointCloudToLaserScanNode*, const char [9], rclcpp::SensorDataQoS&)[m[K’
+  123 |         [01;31m[Ksub_.subscribe(this, "cloud_in", qos)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.hpp:32[m[K,
+                 from [01m[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp:49[m[K,
+                 from [01m[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp:41[m[K:
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodePtr, const std::string&, rmw_qos_profile_t) [35m[K[with M = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K[m[K’
+  240 |   void [01;36m[Ksubscribe[m[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kpointcloud_to_laserscan::PointCloudToLaserScanNode*[m[K’ to ‘[01m[Kmessage_filters::Subscriber<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::NodePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+  240 |   void subscribe([01;36m[KNodePtr node[m[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+      |                  [01;36m[K~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodeType*, const std::string&, rmw_qos_profile_t) [35m[K[with M = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K[m[K’
+  255 |   void [01;36m[Ksubscribe[m[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:85:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Krclcpp::SensorDataQoS[m[K’ to ‘[01m[Krmw_qos_profile_t[m[K’ {aka ‘[01m[Krmw_qos_profile_s[m[K’}
+  255 |   void subscribe(NodeType * node, const std::string& topic, [01;36m[Kconst rmw_qos_profile_t qos = rmw_qos_profile_default[m[K) override
+      |                                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodePtr, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [35m[K[with M = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K[m[K’
+  270 |   void [01;36m[Ksubscribe[m[K(
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodeType*, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [35m[K[with M = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K[m[K’
+  292 |   void [01;36m[Ksubscribe[m[K(
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K() [35m[K[with M = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; NodeType = rclcpp::Node][m[K[m[K’
+  319 |   void [01;36m[Ksubscribe[m[K() override
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[01m[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/src/laserscan_to_pointcloud_node.cpp:[m[K In member function ‘[01m[Kvoid pointcloud_to_laserscan::LaserScanToPointCloudNode::[01;32m[KsubscriptionListenerThreadLoop[m[K()[m[K’:
+[01m[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/src/laserscan_to_pointcloud_node.cpp:114:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Subscriber<sensor_msgs::msg::LaserScan_<std::allocator<void> > >::subscribe(pointcloud_to_laserscan::LaserScanToPointCloudNode*, const char [8], rclcpp::SensorDataQoS&)[m[K’
+  114 |         [01;31m[Ksub_.subscribe(this, "scan_in", qos)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.hpp:32[m[K,
+                 from [01m[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp:49[m[K,
+                 from [01m[K/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/pointcloud_to_laserscan/src/laserscan_to_pointcloud_node.cpp:41[m[K:
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodePtr, const std::string&, rmw_qos_profile_t) [35m[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K[m[K’
+  240 |   void [01;36m[Ksubscribe[m[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:240:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kpointcloud_to_laserscan::LaserScanToPointCloudNode*[m[K’ to ‘[01m[Kmessage_filters::Subscriber<sensor_msgs::msg::LaserScan_<std::allocator<void> > >::NodePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+  240 |   void subscribe([01;36m[KNodePtr node[m[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+      |                  [01;36m[K~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodeType*, const std::string&, rmw_qos_profile_t) [35m[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K[m[K’
+  255 |   void [01;36m[Ksubscribe[m[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default) override
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:255:85:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Krclcpp::SensorDataQoS[m[K’ to ‘[01m[Krmw_qos_profile_t[m[K’ {aka ‘[01m[Krmw_qos_profile_s[m[K’}
+  255 |   void subscribe(NodeType * node, const std::string& topic, [01;36m[Kconst rmw_qos_profile_t qos = rmw_qos_profile_default[m[K) override
+      |                                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodePtr, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [35m[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K[m[K’
+  270 |   void [01;36m[Ksubscribe[m[K(
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:270:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K(NodeType*, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [35m[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K[m[K’
+  292 |   void [01;36m[Ksubscribe[m[K(
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:292:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid message_filters::Subscriber<M, NodeType>::[01;32m[Ksubscribe[m[K() [35m[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node][m[K[m[K’
+  319 |   void [01;36m[Ksubscribe[m[K() override
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:319:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+gmake[2]: *** [CMakeFiles/pointcloud_to_laserscan.dir/build.make:76: CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/pointcloud_to_laserscan.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/laserscan_to_pointcloud.dir/build.make:76: CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/laserscan_to_pointcloud.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

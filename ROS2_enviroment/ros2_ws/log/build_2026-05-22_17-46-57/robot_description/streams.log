@@ -1,0 +1,60 @@
+[2.082s] Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description
+[3.598s] -- The C compiler identification is GNU 13.3.0
+[4.623s] -- The CXX compiler identification is GNU 13.3.0
+[4.771s] -- Detecting C compiler ABI info
+[5.397s] -- Detecting C compiler ABI info - done
+[5.437s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.439s] -- Detecting C compile features
+[5.442s] -- Detecting C compile features - done
+[5.499s] -- Detecting CXX compiler ABI info
+[6.153s] -- Detecting CXX compiler ABI info - done
+[6.203s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.208s] -- Detecting CXX compile features
+[6.211s] -- Detecting CXX compile features - done
+[6.281s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[7.271s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[8.324s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.709s] Error parsing '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/robot_description/package.xml':
+[28.739s] Traceback (most recent call last):
+[28.740s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[28.741s]     root = dom.parseString(data)
+[28.742s]            ^^^^^^^^^^^^^^^^^^^^^
+[28.746s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 1995, in parseString
+[28.747s]     return expatbuilder.parseString(string)
+[28.748s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[28.749s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[28.750s]     return builder.parseString(string)
+[28.751s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[28.753s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[28.763s]     parser.Parse(string, True)
+[28.764s] xml.parsers.expat.ExpatError: mismatched tag: line 15, column 22
+[28.771s] 
+[28.772s] During handling of the above exception, another exception occurred:
+[28.777s] 
+[28.780s] Traceback (most recent call last):
+[28.787s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[28.790s]     main()
+[28.792s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[28.793s]     raise e
+[28.795s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[28.796s]     package = parse_package_string(
+[28.797s]               ^^^^^^^^^^^^^^^^^^^^^
+[28.797s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[28.799s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[28.801s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/robot_description/package.xml':
+[28.803s] The manifest contains invalid XML:
+[28.804s] mismatched tag: line 15, column 22
+[28.973s] -- Configuring incomplete, errors occurred!
+[28.974s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[28.975s]   execute_process(/usr/bin/python3
+[28.976s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[28.976s]   /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/robot_description/package.xml
+[28.977s]   /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description/ament_cmake_core/package.cmake)
+[28.978s]   returned error code 1
+[28.980s] Call Stack (most recent call first):
+[28.982s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[28.983s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[28.985s]   CMakeLists.txt:28 (ament_lint_auto_find_test_dependencies)
+[28.986s] 
+[28.987s] [0m
+[29.006s] Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/robot_description' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description

@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.001000] (-) JobUnselected: {'identifier': 'ddsm115_controller'}
+[0.001752] (-) JobUnselected: {'identifier': 'keyboard_control'}
+[0.001943] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.002054] (-) JobUnselected: {'identifier': 'ros2_laser_scan_merger'}
+[0.002154] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.003182] (-) EventReactorShutdown: {}

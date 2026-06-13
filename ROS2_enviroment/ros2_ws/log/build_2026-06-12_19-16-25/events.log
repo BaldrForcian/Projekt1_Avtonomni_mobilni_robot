@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000943] (-) JobUnselected: {'identifier': 'ddsm115_controller'}
+[0.001746] (-) JobUnselected: {'identifier': 'keyboard_control'}
+[0.001837] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.001909] (-) JobUnselected: {'identifier': 'ros2_laser_scan_merger'}
+[0.002005] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.002518] (wt901c_RS485) JobQueued: {'identifier': 'wt901c_RS485', 'dependencies': OrderedDict()}
+[0.002612] (wt901c_RS485) JobStarted: {'identifier': 'wt901c_RS485'}
+[0.099202] (-) TimerEvent: {}
+[0.199852] (-) TimerEvent: {}
+[0.300621] (-) TimerEvent: {}
+[0.401310] (-) TimerEvent: {}
+[0.502087] (-) TimerEvent: {}
+[0.602771] (-) TimerEvent: {}
+[0.703372] (-) TimerEvent: {}
+[0.803935] (-) TimerEvent: {}
+[0.904544] (-) TimerEvent: {}
+[1.005322] (-) TimerEvent: {}
+[1.106395] (-) TimerEvent: {}
+[1.207089] (-) TimerEvent: {}
+[1.307737] (-) TimerEvent: {}
+[1.408402] (-) TimerEvent: {}
+[1.509093] (-) TimerEvent: {}
+[1.609687] (-) TimerEvent: {}
+[1.710298] (-) TimerEvent: {}
+[1.810867] (-) TimerEvent: {}
+[1.911500] (-) TimerEvent: {}
+[2.012098] (-) TimerEvent: {}
+[2.112675] (-) TimerEvent: {}
+[2.213298] (-) TimerEvent: {}
+[2.313880] (-) TimerEvent: {}
+[2.414499] (-) TimerEvent: {}
+[2.515199] (-) TimerEvent: {}
+[2.615753] (-) TimerEvent: {}
+[2.716377] (-) TimerEvent: {}
+[2.816967] (-) TimerEvent: {}
+[2.917601] (-) TimerEvent: {}
+[3.018249] (-) TimerEvent: {}
+[3.118830] (-) TimerEvent: {}
+[3.219469] (-) TimerEvent: {}
+[3.320070] (-) TimerEvent: {}
+[3.420653] (-) TimerEvent: {}
+[3.521266] (-) TimerEvent: {}
+[3.621847] (-) TimerEvent: {}
+[3.722595] (-) TimerEvent: {}
+[3.823677] (-) TimerEvent: {}
+[3.897644] (wt901c_RS485) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/wt901c_RS485', 'build', '--build-base', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/build', 'install', '--record', '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/wt901c_RS485', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feri', 'SSH_CLIENT': '192.168.169.1 64445 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feri/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feri/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/bin/helpers/browser.sh', 'HOME': '/home/feri', 'OLDPWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.124.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e9ad6d2d-1f26-4c98-833c-ffd7d649235f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feri/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/feri/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/feri/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/feri/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/feri/.vscode-server/data/User/workspaceStorage/64419ce88af73eb699c91f629e47fe35/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-76dba002e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485', 'LC_ALL': 'en_US.UTF-8', 'COPILOT_DEBUG_NONCE': '1dd920f7bc3d081fa72ac3a951e8550b', 'SSH_CONNECTION': '192.168.169.1 64445 192.168.169.219 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/python3.12/site-packages:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/python3.12/site-packages:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ddsm115_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/sllidar_ros2:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/ros2_laser_scan_merger:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/robot_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.923890] (-) TimerEvent: {}
+[4.024777] (-) TimerEvent: {}
+[4.125782] (-) TimerEvent: {}
+[4.226417] (-) TimerEvent: {}
+[4.327050] (-) TimerEvent: {}
+[4.427623] (-) TimerEvent: {}
+[4.528220] (-) TimerEvent: {}
+[4.628796] (-) TimerEvent: {}
+[4.729431] (-) TimerEvent: {}
+[4.830061] (-) TimerEvent: {}
+[4.930639] (-) TimerEvent: {}
+[5.031258] (-) TimerEvent: {}
+[5.131845] (-) TimerEvent: {}
+[5.169006] (wt901c_RS485) StdoutLine: {'line': b'running egg_info\n'}
+[5.232060] (-) TimerEvent: {}
+[5.264303] (wt901c_RS485) StdoutLine: {'line': b'writing ../../build/wt901c_RS485/wt901c_RS485.egg-info/PKG-INFO\n'}
+[5.265506] (wt901c_RS485) StdoutLine: {'line': b'writing dependency_links to ../../build/wt901c_RS485/wt901c_RS485.egg-info/dependency_links.txt\n'}
+[5.267181] (wt901c_RS485) StdoutLine: {'line': b'writing entry points to ../../build/wt901c_RS485/wt901c_RS485.egg-info/entry_points.txt\n'}
+[5.268395] (wt901c_RS485) StdoutLine: {'line': b'writing requirements to ../../build/wt901c_RS485/wt901c_RS485.egg-info/requires.txt\n'}
+[5.269345] (wt901c_RS485) StdoutLine: {'line': b'writing top-level names to ../../build/wt901c_RS485/wt901c_RS485.egg-info/top_level.txt\n'}
+[5.332216] (-) TimerEvent: {}
+[5.432803] (-) TimerEvent: {}
+[5.463133] (wt901c_RS485) StdoutLine: {'line': b"reading manifest file '../../build/wt901c_RS485/wt901c_RS485.egg-info/SOURCES.txt'\n"}
+[5.466672] (wt901c_RS485) StdoutLine: {'line': b"writing manifest file '../../build/wt901c_RS485/wt901c_RS485.egg-info/SOURCES.txt'\n"}
+[5.467417] (wt901c_RS485) StdoutLine: {'line': b'running build\n'}
+[5.468011] (wt901c_RS485) StdoutLine: {'line': b'running build_py\n'}
+[5.468657] (wt901c_RS485) StdoutLine: {'line': b'copying wt901c_RS485/wt901c.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/build/lib/wt901c_RS485\n'}
+[5.470299] (wt901c_RS485) StdoutLine: {'line': b'running install\n'}
+[5.494926] (wt901c_RS485) StdoutLine: {'line': b'running install_lib\n'}
+[5.533035] (-) TimerEvent: {}
+[5.589322] (wt901c_RS485) StdoutLine: {'line': b'copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/build/lib/wt901c_RS485/wt901c.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/python3.12/site-packages/wt901c_RS485\n'}
+[5.592270] (wt901c_RS485) StdoutLine: {'line': b'byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/python3.12/site-packages/wt901c_RS485/wt901c.py to wt901c.cpython-312.pyc\n'}
+[5.601048] (wt901c_RS485) StdoutLine: {'line': b'running install_data\n'}
+[5.601835] (wt901c_RS485) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.633127] (-) TimerEvent: {}
+[5.701389] (wt901c_RS485) StdoutLine: {'line': b"removing '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/python3.12/site-packages/wt901c_RS485-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.703295] (wt901c_RS485) StdoutLine: {'line': b'Copying ../../build/wt901c_RS485/wt901c_RS485.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/python3.12/site-packages/wt901c_RS485-0.0.0-py3.12.egg-info\n'}
+[5.708842] (wt901c_RS485) StdoutLine: {'line': b'running install_scripts\n'}
+[5.733272] (-) TimerEvent: {}
+[5.833854] (-) TimerEvent: {}
+[5.934484] (-) TimerEvent: {}
+[6.035086] (-) TimerEvent: {}
+[6.135663] (-) TimerEvent: {}
+[6.236264] (-) TimerEvent: {}
+[6.336833] (-) TimerEvent: {}
+[6.409589] (wt901c_RS485) StdoutLine: {'line': b'Installing wt901c script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/wt901c_RS485\n'}
+[6.411260] (wt901c_RS485) StdoutLine: {'line': b"writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/install.log'\n"}
+[6.437153] (-) TimerEvent: {}
+[6.538089] (-) TimerEvent: {}
+[6.558457] (wt901c_RS485) CommandEnded: {'returncode': 0}
+[6.605105] (wt901c_RS485) JobEnded: {'identifier': 'wt901c_RS485', 'rc': 0}
+[6.608090] (-) EventReactorShutdown: {}

@@ -1,0 +1,5 @@
+  File "/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard_control/one_motor_test.py", line 33
+    self.Clamp(self,value,min_val,max_val):
+                                          ^
+SyntaxError: invalid syntax
+

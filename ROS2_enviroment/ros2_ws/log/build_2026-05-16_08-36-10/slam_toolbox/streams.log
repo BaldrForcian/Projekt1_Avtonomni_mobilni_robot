@@ -1,0 +1,59 @@
+[2.083s] Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/slam_toolbox
+[2.666s] -- The C compiler identification is GNU 13.3.0
+[3.097s] -- The CXX compiler identification is GNU 13.3.0
+[3.204s] -- Detecting C compiler ABI info
+[3.843s] -- Detecting C compiler ABI info - done
+[3.884s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.885s] -- Detecting C compile features
+[3.889s] -- Detecting C compile features - done
+[3.955s] -- Detecting CXX compiler ABI info
+[4.638s] -- Detecting CXX compiler ABI info - done
+[4.690s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.692s] -- Detecting CXX compile features
+[4.698s] -- Detecting CXX compile features - done
+[4.730s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.652s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.475s] -- Found message_filters: 4.11.12 (/opt/ros/jazzy/share/message_filters/cmake)
+[6.951s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.079s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.898s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[7.928s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[8.512s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[8.643s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[8.766s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.394s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[9.650s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[9.788s] -- Found tf2: 0.36.20 (/opt/ros/jazzy/share/tf2/cmake)
+[9.841s] -- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[10.770s] -- Found visualization_msgs: 5.3.7 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[10.913s] -- Found pluginlib: 5.4.5 (/opt/ros/jazzy/share/pluginlib/cmake)
+[10.975s] -- Found tf2_geometry_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[11.173s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[11.181s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[11.182s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[11.210s] -- Found tf2_sensor_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)
+[11.250s] -- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)
+[11.336s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[11.513s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[11.550s] -- Found lifecycle_msgs: 2.0.3 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+[11.809s] [31mCMake Error at CMakeLists.txt:29 (find_package):
+[11.809s]   By not providing "Findbondcpp.cmake" in CMAKE_MODULE_PATH this project has
+[11.810s]   asked CMake to find a package configuration file provided by "bondcpp", but
+[11.810s]   CMake did not find one.
+[11.811s] 
+[11.812s]   Could not find a package configuration file provided by "bondcpp" with any
+[11.812s]   of the following names:
+[11.814s] 
+[11.815s]     bondcppConfig.cmake
+[11.816s]     bondcpp-config.cmake
+[11.816s] 
+[11.817s]   Add the installation prefix of "bondcpp" to CMAKE_PREFIX_PATH or set
+[11.818s]   "bondcpp_DIR" to a directory containing one of the above files.  If
+[11.820s]   "bondcpp" provides a separate development package or SDK, be sure it has
+[11.821s]   been installed.
+[11.822s] 
+[11.823s] [0m
+[11.824s] -- Configuring incomplete, errors occurred!
+[11.859s] Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/slam_toolbox' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/slam_toolbox

@@ -1,0 +1,23 @@
+[0.000000] (-) TimerEvent: {}
+[0.000597] (-) JobUnselected: {'identifier': 'ddsm115_controller'}
+[0.001185] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.002045] (-) JobUnselected: {'identifier': 'ros2_laser_scan_merger'}
+[0.002589] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.002678] (-) JobUnselected: {'identifier': 'wt901c_RS485'}
+[0.002784] (keyboard_control) JobQueued: {'identifier': 'keyboard_control', 'dependencies': OrderedDict()}
+[0.003385] (keyboard_control) JobStarted: {'identifier': 'keyboard_control'}
+[0.098862] (-) TimerEvent: {}
+[0.199504] (-) TimerEvent: {}
+[0.300162] (-) TimerEvent: {}
+[0.400858] (-) TimerEvent: {}
+[0.501550] (-) TimerEvent: {}
+[0.602243] (-) TimerEvent: {}
+[0.703145] (-) TimerEvent: {}
+[0.803711] (-) TimerEvent: {}
+[0.904331] (-) TimerEvent: {}
+[1.004946] (-) TimerEvent: {}
+[1.105703] (-) TimerEvent: {}
+[1.206348] (-) TimerEvent: {}
+[1.307047] (-) TimerEvent: {}
+[1.369145] (keyboard_control) JobEnded: {'identifier': 'keyboard_control', 'rc': 0}
+[1.372608] (-) EventReactorShutdown: {}

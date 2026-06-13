@@ -1,0 +1,24 @@
+[4.005s] Invoking command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/wt901c_RS485': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wt901c_RS485 build --build-base /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/build install --record /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/install.log --single-version-externally-managed install_data
+[5.281s] running egg_info
+[5.374s] writing ../../build/wt901c_RS485/wt901c_RS485.egg-info/PKG-INFO
+[5.376s] writing dependency_links to ../../build/wt901c_RS485/wt901c_RS485.egg-info/dependency_links.txt
+[5.378s] writing entry points to ../../build/wt901c_RS485/wt901c_RS485.egg-info/entry_points.txt
+[5.379s] writing requirements to ../../build/wt901c_RS485/wt901c_RS485.egg-info/requires.txt
+[5.380s] writing top-level names to ../../build/wt901c_RS485/wt901c_RS485.egg-info/top_level.txt
+[5.580s] reading manifest file '../../build/wt901c_RS485/wt901c_RS485.egg-info/SOURCES.txt'
+[5.583s] writing manifest file '../../build/wt901c_RS485/wt901c_RS485.egg-info/SOURCES.txt'
+[5.584s] running build
+[5.584s] running build_py
+[5.585s] copying wt901c_RS485/wt901c.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/build/lib/wt901c_RS485
+[5.587s] running install
+[5.611s] running install_lib
+[5.704s] copying /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/build/lib/wt901c_RS485/wt901c.py -> /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/python3.12/site-packages/wt901c_RS485
+[5.707s] byte-compiling /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/python3.12/site-packages/wt901c_RS485/wt901c.py to wt901c.cpython-312.pyc
+[5.712s] running install_data
+[5.713s] running install_egg_info
+[5.812s] removing '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/python3.12/site-packages/wt901c_RS485-0.0.0-py3.12.egg-info' (and everything under it)
+[5.815s] Copying ../../build/wt901c_RS485/wt901c_RS485.egg-info to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/python3.12/site-packages/wt901c_RS485-0.0.0-py3.12.egg-info
+[5.823s] running install_scripts
+[6.541s] Installing wt901c script to /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/wt901c_RS485
+[6.543s] writing list of installed files to '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/install.log'
+[6.687s] Invoked command in '/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/src/wt901c_RS485' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/wt901c_RS485/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wt901c_RS485 build --build-base /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/build install --record /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/wt901c_RS485/install.log --single-version-externally-managed install_data

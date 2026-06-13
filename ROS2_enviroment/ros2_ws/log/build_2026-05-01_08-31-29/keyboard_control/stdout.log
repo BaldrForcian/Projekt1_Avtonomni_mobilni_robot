@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing keyboard_control.egg-info/PKG-INFO
+writing dependency_links to keyboard_control.egg-info/dependency_links.txt
+writing requirements to keyboard_control.egg-info/requires.txt
+writing top-level names to keyboard_control.egg-info/top_level.txt
+reading manifest file 'keyboard_control.egg-info/SOURCES.txt'
+writing manifest file 'keyboard_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/install/keyboard_control/lib/python3.12/site-packages/keyboard-control.egg-link (link to .)
+
+Installed /home/feri/Projekt_1/ROS2_enviroment/ros2_ws/build/keyboard_control
+running symlink_data
